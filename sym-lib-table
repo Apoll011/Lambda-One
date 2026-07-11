@@ -1,7 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Chips")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/Chips.kicad_sym")(options "")(descr ""))
-  (lib (name "65xx-library")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/65xx-library.kicad_sym")(options "")(descr ""))
-  (lib (name "ATF22V10C")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/ATF22V10C.kicad_sym")(options "")(descr ""))
-  (lib (name "cern_ds1813_10_t_r")(type "KiCad")(uri "${KIPRJMOD}/hardware/libraries/cern_ds1813_10_t_r.kicad_sym")(options "")(descr ""))
-)
