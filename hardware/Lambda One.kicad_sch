@@ -3032,6 +3032,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 87.63) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25e974e-3ea2-4264-a684-862e206913a0")
+	)
+	(wire
+		(pts
 			(xy 111.76 105.41) (xy 120.65 105.41)
 		)
 		(stroke
@@ -3608,28 +3618,6 @@
 			)
 		)
 	)
-	(global_label "R{slash}W"
-		(shape input)
-		(at 88.9 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "520647ec-7752-4522-8149-61833b831a34")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8629 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CLK"
 		(shape input)
 		(at 88.9 64.77 180)
@@ -3653,7 +3641,7 @@
 		)
 	)
 	(global_label "ROM_CS"
-		(shape input)
+		(shape output)
 		(at 181.61 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3675,7 +3663,7 @@
 		)
 	)
 	(global_label "D[0..7]"
-		(shape input)
+		(shape bidirectional)
 		(at 151.13 151.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3686,7 +3674,7 @@
 		)
 		(uuid "aa557192-5ad1-4ccf-867e-4a4f0505b5d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.7072 151.13 0)
+			(at 161.8185 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3685,7 @@
 		)
 	)
 	(global_label "Bank_CS"
-		(shape input)
+		(shape output)
 		(at 181.61 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3718,8 +3706,30 @@
 			)
 		)
 	)
+	(global_label "R{slash}~{W}"
+		(shape output)
+		(at 88.9 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cacd2904-425c-41a1-b372-f4eba0980571")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.8629 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Addr[0..15]"
-		(shape input)
+		(shape output)
 		(at 199.39 29.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3741,7 +3751,7 @@
 		)
 	)
 	(global_label "RAM_CS"
-		(shape input)
+		(shape output)
 		(at 181.61 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3753,6 +3763,28 @@
 		(uuid "dbf7ac27-c327-4b69-b9ad-1d29e408dcb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.8523 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_CS"
+		(shape output)
+		(at 181.61 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3f6f7cb-4929-416e-a8ce-31f3807ed9bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.5176 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,6 +4960,48 @@
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 138.43)
+		(size 34.29 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c99586b2-79bd-4011-9acf-fcc28a8dd9c0")
+		(property "Sheetname" "GPIO"
+			(at 247.65 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio.kicad_sch"
+			(at 247.65 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
+					(page "3")
 				)
 			)
 		)

@@ -617,6 +617,10 @@
     [
       "393dc2fd-ccc9-40ef-ba1b-4142573d9a3b",
       "Memory Sheet"
+    ],
+    [
+      "c99586b2-79bd-4011-9acf-fcc28a8dd9c0",
+      "GPIO"
     ]
   ],
   "text_variables": {}
