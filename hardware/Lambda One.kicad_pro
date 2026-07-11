@@ -621,6 +621,14 @@
     [
       "c99586b2-79bd-4011-9acf-fcc28a8dd9c0",
       "GPIO"
+    ],
+    [
+      "28e06375-6191-48e6-8753-cf17849d8879",
+      "Internal SPI"
+    ],
+    [
+      "088fea7b-91fe-498d-aae3-ef62f613a4c5",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

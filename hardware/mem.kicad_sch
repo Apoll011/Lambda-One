@@ -9,6 +9,9 @@
 		(date "2026-07-11")
 		(rev "v1")
 		(company "Embrace")
+		(comment 1 "https://github.com/Apoll011/Lambda-One")
+		(comment 2 "Apoll011")
+		(comment 3 "Draw by Tiago Inês")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC74"

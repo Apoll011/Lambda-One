@@ -9,6 +9,9 @@
 		(date "2026-07-11")
 		(rev "v1")
 		(company "Embrace")
+		(comment 1 "https://github.com/Apoll011/Lambda-One")
+		(comment 2 "Apoll011")
+		(comment 3 "Draw by Tiago Inês")
 	)
 	(lib_symbols
 		(symbol "65xx-library:W65C816SxP"
@@ -5662,6 +5665,48 @@
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 119.38)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28e06375-6191-48e6-8753-cf17849d8879")
+		(property "Sheetname" "Internal SPI"
+			(at 247.65 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spi.kicad_sch"
+			(at 247.65 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
+					(page "4")
 				)
 			)
 		)
