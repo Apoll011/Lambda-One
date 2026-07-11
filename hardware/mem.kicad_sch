@@ -3679,16 +3679,6 @@
 		)
 		(uuid "65b09183-2d14-4880-a9cf-eb83acdd03a6")
 	)
-	(label "D[0..7]"
-		(at 81.28 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "664b8a3c-eebd-4173-b659-e99d3f6293ec")
-	)
 	(label "D7"
 		(at 167.64 81.28 0)
 		(effects
@@ -3858,16 +3848,6 @@
 			(justify right bottom)
 		)
 		(uuid "be9190f7-4626-4933-b861-b5b3c71b97f8")
-	)
-	(label "Addr[0..15]"
-		(at 100.33 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf76e6b6-84de-400f-ad48-eb2c4f9e87c1")
 	)
 	(label "D6"
 		(at 199.39 78.74 180)
@@ -4333,7 +4313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -4505,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -4611,7 +4591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AT28C256-15PU:DIP1544W45P254L3740H635Q28B"
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -5051,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 99.06 139.7 0)
 			(effects
 				(font
