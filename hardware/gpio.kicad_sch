@@ -4873,7 +4873,7 @@
 			)
 		)
 	)
-	(global_label "IRQ_{1}"
+	(global_label "~{IRQ}"
 		(shape output)
 		(at 107.95 77.47 180)
 		(fields_autoplaced yes)
@@ -4885,7 +4885,7 @@
 		)
 		(uuid "78dcd7c5-d6be-4cd9-97ca-4cdb81daa7df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.7411 77.47 0)
+			(at 101.7595 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 			)
 		)
 	)
-	(global_label "IRQ_{2}"
+	(global_label "~{IRQ}"
 		(shape output)
 		(at 181.61 77.47 180)
 		(fields_autoplaced yes)
@@ -4951,7 +4951,7 @@
 		)
 		(uuid "cb591cf9-760b-4d63-bebd-b76df125ffbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4011 77.47 0)
+			(at 175.4195 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
