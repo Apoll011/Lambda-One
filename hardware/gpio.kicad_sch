@@ -4741,28 +4741,6 @@
 			)
 		)
 	)
-	(global_label "CLK"
-		(shape input)
-		(at 181.61 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b76f5fd-40b0-4c0d-ad0a-fea2fdad9843")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.0567 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_{CS}"
 		(shape input)
 		(at 109.22 81.28 180)
@@ -4908,6 +4886,28 @@
 		(uuid "a71d5f80-4236-4ea6-8423-b532b198ed2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.9129 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHI2"
+		(shape input)
+		(at 107.95 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a97566cb-5b8f-4024-909f-a3b8465500b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,28 +5071,6 @@
 			)
 		)
 	)
-	(global_label "CLK"
-		(shape input)
-		(at 107.95 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "efc16eca-3147-44ec-930d-2eb33fb43f73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.3967 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PORT_CA2"
 		(shape bidirectional)
 		(at 135.89 92.71 0)
@@ -5133,6 +5111,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHI2"
+		(shape input)
+		(at 181.61 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f88e6181-5baf-4990-aec5-890a7b0bc671")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
