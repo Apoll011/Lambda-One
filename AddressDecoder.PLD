@@ -47,7 +47,7 @@ IOACTIVE = BANK0 & IOPAGE;
 /* ROM $8000-$FFFF in Bank 0 */
 n_ROM_CS = !(BANK0 & A15);
 
-/* RAM */
+/* RAM (Active in Banks 1-7, or Bank 0 when !A15 and !IOPAGE) */
 n_RAM_CS = !((!BANK0) # (BANK0 & !A15 & !IOPAGE));
 
 /* Video $7E00-$7EFF */
@@ -59,8 +59,8 @@ n_E0_CS = !(IOACTIVE & A8 & !A7 & !A6);
 /* EXT1 $7F40-$7F7F */
 n_E1_CS = !(IOACTIVE & A8 & !A7 & A6);
 
-/* GPIO $7FA0-$7FDF */
+/* GPIO & SERIAL $7F80-$7FBF  */
 GPIO_SERIAL_CS = IOACTIVE & A8 & A7 & !A6;
 
-/* SID $7F80-$7F9F */
-n_SCS = !(IOACTIVE & A8 & A7 & !A6 & !A5);
+/* SID $7FC0-$7FDF */
+n_SCS = !(IOACTIVE & A8 & A7 & A6 & !A5);
