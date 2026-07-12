@@ -659,6 +659,10 @@
     [
       "088fea7b-91fe-498d-aae3-ef62f613a4c5",
       "Ethernet"
+    ],
+    [
+      "8596ee45-8820-47ce-a360-877e286ae437",
+      "External Connection"
     ]
   ],
   "text_variables": {}
