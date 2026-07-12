@@ -30,7 +30,7 @@ PIN 17 = n_E0_CS;
 PIN 18 = n_E1_CS;
 PIN 19 = n_VCS;
 PIN 20 = n_SCS;
-PIN 21 = GPIO_CS;
+PIN 21 = GPIO_SERIAL_CS;
 PIN 22 = n_RAM_CS;
 PIN 23 = n_ROM_CS;
 
@@ -59,11 +59,8 @@ n_E0_CS = !(IOACTIVE & A8 & !A7 & !A6);
 /* EXT1 $7F40-$7F7F */
 n_E1_CS = !(IOACTIVE & A8 & !A7 & A6);
 
-/* GPIO $7FA0-$7FBF */
-GPIO_CS = IOACTIVE & A8 & A7 & !A6 & A5;
+/* GPIO $7FA0-$7FDF */
+GPIO_SERIAL_CS = IOACTIVE & A8 & A7 & !A6;
 
 /* SID $7F80-$7F9F */
 n_SCS = !(IOACTIVE & A8 & A7 & !A6 & !A5);
-
-/* SID $7FC0-$7FDF */
-/*n_SERIAL = !(IOACTIVE & A8 & A7 & A6 & A5);*/
