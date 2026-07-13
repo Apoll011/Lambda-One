@@ -6145,7 +6145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AT28C256-15PU:DIP1544W45P254L3740H635Q28B"
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 156.21 86.36 0)
 			(effects
 				(font

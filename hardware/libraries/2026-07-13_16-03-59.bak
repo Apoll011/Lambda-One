@@ -858,7 +858,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 30.48 0)
+				(at -17.78 17.78 0)
 				(length 7.62)
 				(name "~{RTSA}"
 					(effects
@@ -876,7 +876,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 27.94 0)
+				(at -17.78 15.24 0)
 				(length 7.62)
 				(name "~{DTRA}"
 					(effects
@@ -894,7 +894,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 21.59 0)
+				(at -17.78 8.89 0)
 				(length 7.62)
 				(name "~{DTRB}"
 					(effects
@@ -912,7 +912,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 19.05 0)
+				(at -17.78 6.35 0)
 				(length 7.62)
 				(name "~{RTSB}"
 					(effects
@@ -930,7 +930,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 12.7 0)
+				(at -17.78 0 0)
 				(length 7.62)
 				(name "~{DTRC}"
 					(effects
@@ -948,7 +948,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 10.16 0)
+				(at -17.78 -2.54 0)
 				(length 7.62)
 				(name "~{RTSC}"
 					(effects
@@ -966,7 +966,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 3.81 0)
+				(at -17.78 -8.89 0)
 				(length 7.62)
 				(name "~{DTRD}"
 					(effects
@@ -984,7 +984,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 1.27 0)
+				(at -17.78 -11.43 0)
 				(length 7.62)
 				(name "~{RTSD}"
 					(effects

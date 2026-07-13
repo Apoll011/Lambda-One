@@ -2953,7 +2953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SIP:SIP-9_22.3x3mm_P2.54mm"
 			(at 265.43 86.36 0)
 			(effects
 				(font

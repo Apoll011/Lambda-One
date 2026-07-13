@@ -411,7 +411,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at -22.86 -8.89 0)
 				(length 7.62)
 				(name "~{IRQ}"

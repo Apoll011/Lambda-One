@@ -3051,7 +3051,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 36.83 180)
 					(length 7.62)
 					(name "VA0"
@@ -3069,7 +3069,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 34.29 180)
 					(length 7.62)
 					(name "VA1"
@@ -3087,7 +3087,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 31.75 180)
 					(length 7.62)
 					(name "VA2"
@@ -3105,7 +3105,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 29.21 180)
 					(length 7.62)
 					(name "VA3"
@@ -3123,7 +3123,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 26.67 180)
 					(length 7.62)
 					(name "VA4"
@@ -3141,7 +3141,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 24.13 180)
 					(length 7.62)
 					(name "VA5"
@@ -3159,7 +3159,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 21.59 180)
 					(length 7.62)
 					(name "VA6"
@@ -3177,7 +3177,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 17.78 19.05 180)
 					(length 7.62)
 					(name "VA7"
@@ -6282,7 +6282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 46.99 113.03 0)
 			(effects
 				(font
@@ -6800,119 +6800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm-steve:41464")
-		(at 189.23 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36657b95-a027-486a-a835-175766326461")
-		(property "Reference" "U15"
-			(at 184.658 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "41464"
-			(at 193.548 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "2c19e1bd-474a-4659-991f-f906d2749929")
-		)
-		(pin "10"
-			(uuid "da2ccba8-eaf3-4192-865e-9864c925f13f")
-		)
-		(pin "5"
-			(uuid "6b7c20c6-b336-4944-94c6-758f9f96ba62")
-		)
-		(pin "13"
-			(uuid "d58d068c-a2a1-401e-a975-031a4138f157")
-		)
-		(pin "11"
-			(uuid "b2cdeed1-5f93-44bf-98b5-fc80a145ddca")
-		)
-		(pin "16"
-			(uuid "f99f8529-b00d-418a-ada7-41f4ba21117c")
-		)
-		(pin "8"
-			(uuid "5b1aa3e7-1270-4203-bea6-4d7305288f9a")
-		)
-		(pin "7"
-			(uuid "dd1154c3-54c5-4215-9c03-462ffffc53ed")
-		)
-		(pin "1"
-			(uuid "c7493ed5-ad91-48d1-b35a-78709f795fd7")
-		)
-		(pin "2"
-			(uuid "3bfdaa43-d3db-44b2-88c8-6d27ceaa482c")
-		)
-		(pin "4"
-			(uuid "939889ba-ef4e-4bea-a7d9-59031415ff23")
-		)
-		(pin "14"
-			(uuid "dce86e92-eae2-44df-8de5-7bc3e02b7dbe")
-		)
-		(pin "15"
-			(uuid "89d08e21-d0e0-4440-85fd-bdd3c4761d68")
-		)
-		(pin "18"
-			(uuid "9428dd0e-2cc7-44ef-ae60-0dc385c4cedd")
-		)
-		(pin "9"
-			(uuid "44abbfbf-338c-4731-9c7c-018bf2df9a11")
-		)
-		(pin "6"
-			(uuid "ae4dca3f-99af-4721-a086-748a832dc264")
-		)
-		(pin "12"
-			(uuid "96847129-2df0-4aa5-a442-54ef9e9c122d")
-		)
-		(pin "3"
-			(uuid "81cae8ae-ad79-4b7e-bae4-1295a9bbca18")
-		)
-		(instances
-			(project "Lambda One"
-				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/312c3e8e-ed42-48bd-9873-bb680b3a5e72"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 189.23 29.21 0)
 		(unit 1)
@@ -7242,6 +7129,121 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm-steve:41464")
+		(at 242.57 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "574131a7-8330-4f48-bfc1-94c482d7df7b")
+		(property "Reference" "U17"
+			(at 237.744 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "41464"
+			(at 246.634 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "378db703-73c6-45dd-bef4-050ea6427533")
+		)
+		(pin "10"
+			(uuid "697f9b25-8f41-47f3-a903-7464de146675")
+		)
+		(pin "5"
+			(uuid "e924e4b4-6c04-4028-a82c-d3c2c4725d27")
+		)
+		(pin "13"
+			(uuid "bd95ae4a-98dc-4c7a-a805-1331ccbaf4be")
+		)
+		(pin "11"
+			(uuid "57605b19-5ac6-452d-b5d8-8b03e7e2c6a9")
+		)
+		(pin "16"
+			(uuid "488f936a-06b6-45b0-a2b7-8838cc008312")
+		)
+		(pin "8"
+			(uuid "3e98047a-25bb-486d-b67b-fe2186f52ab6")
+		)
+		(pin "7"
+			(uuid "6e5a4674-d62e-4a87-95ca-ae916531ac02")
+		)
+		(pin "1"
+			(uuid "0e9bb445-9b8d-4b80-8d57-a20dc1decb42")
+		)
+		(pin "2"
+			(uuid "ed58f7a4-5dd0-4b65-ab24-5c604e1ffc3d")
+		)
+		(pin "4"
+			(uuid "f367218d-484d-4e81-8161-56833dbdc159")
+		)
+		(pin "14"
+			(uuid "5601b00c-809f-466b-a616-194beeac6cda")
+		)
+		(pin "15"
+			(uuid "1fb714ae-c297-42f6-879c-7b6fd659ecc1")
+		)
+		(pin "18"
+			(uuid "828c9404-3859-4a76-8315-3a0766701f38")
+		)
+		(pin "9"
+			(uuid "c9daf6de-5101-4245-ba16-555f297ec9ca")
+		)
+		(pin "6"
+			(uuid "086fa7c2-3741-4f59-839c-92c650dda5ea")
+		)
+		(pin "12"
+			(uuid "d18a8f5b-a4c2-44e2-a44e-9afa4f4bcab6")
+		)
+		(pin "3"
+			(uuid "253bd1c8-306f-4cc0-bd2c-b071aeea9b5f")
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/312c3e8e-ed42-48bd-9873-bb680b3a5e72"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 60.96 135.89 0)
 		(unit 1)
@@ -7332,7 +7334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -7611,6 +7613,121 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm-steve:41464")
+		(at 242.57 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64aad63a-8928-4e1d-a99e-878c3e5546e5")
+		(property "Reference" "U18"
+			(at 237.744 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "41464"
+			(at 246.634 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
+			(at 245.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
+			(at 245.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "011d5d90-aaf7-4c83-9a65-f91f9a232639")
+		)
+		(pin "10"
+			(uuid "6b4d0ebc-4f27-435e-b0be-b3cc50c8c533")
+		)
+		(pin "5"
+			(uuid "9cd110d6-387c-46a8-a587-e9e559c065f3")
+		)
+		(pin "13"
+			(uuid "ad21e0fe-5e2c-412b-8818-cd90d78865f2")
+		)
+		(pin "11"
+			(uuid "54bd027e-e1ed-465a-82a6-f4936070b652")
+		)
+		(pin "16"
+			(uuid "18ecb552-07c5-4b50-9ee5-7ff828d509db")
+		)
+		(pin "8"
+			(uuid "dafc1417-9937-4f3c-8eed-0b5a17c30667")
+		)
+		(pin "7"
+			(uuid "18dc2287-65d9-429c-ab22-387b25a28e64")
+		)
+		(pin "1"
+			(uuid "dee52bd8-b7be-4b14-943f-e27b83181e26")
+		)
+		(pin "2"
+			(uuid "0ad500d2-8e6c-422d-8d69-9b4e360e17b6")
+		)
+		(pin "4"
+			(uuid "5c11d55f-b087-4a18-825e-7ec1e424a6f2")
+		)
+		(pin "14"
+			(uuid "49e9cd62-6902-42f7-a4f8-83744b406649")
+		)
+		(pin "15"
+			(uuid "518a6521-7195-4945-864f-3263b9b868f7")
+		)
+		(pin "18"
+			(uuid "71a02f80-7b96-4d63-a0cf-bcd643fe7e88")
+		)
+		(pin "9"
+			(uuid "78794581-962e-4f7e-8fd3-6766237ba1a7")
+		)
+		(pin "6"
+			(uuid "c44cf7a4-5b4f-4df1-b042-11f6cff56137")
+		)
+		(pin "12"
+			(uuid "386ac928-c2a2-4925-9fc9-b18338fa3297")
+		)
+		(pin "3"
+			(uuid "1cd7f2f1-8bfd-4cc7-a149-e2f5b01ab0f5")
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/312c3e8e-ed42-48bd-9873-bb680b3a5e72"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 116.84 0)
 		(unit 1)
@@ -7704,7 +7821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 166.37 170.942 0)
 			(effects
 				(font
@@ -7789,20 +7906,22 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
 			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8003,119 +8122,6 @@
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/312c3e8e-ed42-48bd-9873-bb680b3a5e72"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm-steve:41464")
-		(at 242.57 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b816986-294a-44c7-a745-cba98c8e6b5e")
-		(property "Reference" "U17"
-			(at 237.49 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "41464"
-			(at 246.888 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "1c145d1c-d636-4971-a4bc-d77d6f4e4fbd")
-		)
-		(pin "10"
-			(uuid "0a916d4b-545b-42b2-8b55-6deecb21f47c")
-		)
-		(pin "5"
-			(uuid "977ea831-555c-4b91-a7f4-f04822f3f884")
-		)
-		(pin "13"
-			(uuid "7ed31626-fd4a-433b-96c7-52fcc8573c23")
-		)
-		(pin "11"
-			(uuid "56f93ef6-d82b-46f4-8283-6480fc7e587d")
-		)
-		(pin "16"
-			(uuid "dcd672f1-9ca1-4aca-8846-b0dc7582f212")
-		)
-		(pin "8"
-			(uuid "fefc053d-be1d-434a-914f-4befcf0790b6")
-		)
-		(pin "7"
-			(uuid "5d70175c-645e-4f02-a807-b70a727d04fe")
-		)
-		(pin "1"
-			(uuid "ba3fc8a6-28ef-4ab3-8dce-61e9bd2f63df")
-		)
-		(pin "2"
-			(uuid "d369f3a4-998a-440a-80ff-d8f0d7a89c7a")
-		)
-		(pin "4"
-			(uuid "54c9aec6-cf43-4bb5-80d2-f98e0bc73722")
-		)
-		(pin "14"
-			(uuid "52342116-963f-4ddc-887b-bfaef9bf505b")
-		)
-		(pin "15"
-			(uuid "f329768c-cf1e-46cc-87e9-bf417aa90170")
-		)
-		(pin "18"
-			(uuid "372e4cdb-5b97-4e8c-89a0-374e860a080b")
-		)
-		(pin "9"
-			(uuid "ff9bfad8-8e2d-4d8d-b2f7-6ed487678c87")
-		)
-		(pin "6"
-			(uuid "349cee87-67a3-4396-9406-2ce9b6d216c4")
-		)
-		(pin "12"
-			(uuid "fb462383-f645-4f86-9675-796c773485d5")
-		)
-		(pin "3"
-			(uuid "f5492d66-3bac-4313-9a2d-96df34279cf7")
-		)
-		(instances
-			(project "Lambda One"
-				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/312c3e8e-ed42-48bd-9873-bb680b3a5e72"
-					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -8516,6 +8522,121 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm-steve:41464")
+		(at 189.23 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ba67f2-7af5-4c9c-9cc9-1527ee748d7c")
+		(property "Reference" "U15"
+			(at 184.404 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "41464"
+			(at 193.294 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "431e8697-6f43-45f3-87f9-ec7fad96aa83")
+		)
+		(pin "10"
+			(uuid "39cacecb-ee2e-4118-961a-2380e880a5c2")
+		)
+		(pin "5"
+			(uuid "6a0a57bb-a631-411a-9796-f3852e136d8a")
+		)
+		(pin "13"
+			(uuid "e263e381-f0a5-4b08-a708-e7354bd528a6")
+		)
+		(pin "11"
+			(uuid "d73684b2-0037-4e55-abac-d7b25b5a76dd")
+		)
+		(pin "16"
+			(uuid "59d1625b-283b-44ea-a34b-9543239430ff")
+		)
+		(pin "8"
+			(uuid "b23e6a6f-fe60-47ef-89f1-6d84364c532c")
+		)
+		(pin "7"
+			(uuid "a5b62c94-ae00-4bbd-9e88-158ba5fb17e0")
+		)
+		(pin "1"
+			(uuid "3609315a-2700-4032-bfbc-013ba2d8a089")
+		)
+		(pin "2"
+			(uuid "4a199081-531b-4aa1-9542-d6e16de4f6da")
+		)
+		(pin "4"
+			(uuid "19fbef74-d018-40e6-950b-7b1eac97a80b")
+		)
+		(pin "14"
+			(uuid "7bcf1d22-9b5a-41ee-bd8a-78653eba6d31")
+		)
+		(pin "15"
+			(uuid "b0921f4a-64e0-4ef3-9e0d-3b2db079e893")
+		)
+		(pin "18"
+			(uuid "6cb8084a-9d9a-4538-a3af-132ec602abb4")
+		)
+		(pin "9"
+			(uuid "76fb098f-6f5a-4740-b458-6fea527e995f")
+		)
+		(pin "6"
+			(uuid "fcca52c7-2c84-41aa-aea8-02608a386080")
+		)
+		(pin "12"
+			(uuid "d806f69d-1480-430c-827c-074f975f112d")
+		)
+		(pin "3"
+			(uuid "4f371689-a2f7-49b8-858a-94e891652eb6")
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/312c3e8e-ed42-48bd-9873-bb680b3a5e72"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 40.64 160.02 0)
 		(unit 1)
@@ -8607,7 +8728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm"
 			(at 55.88 72.39 0)
 			(effects
 				(font
@@ -9163,119 +9284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm-steve:41464")
-		(at 242.57 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6d8536a-a58c-4a6a-bbbb-fdac36d651e3")
-		(property "Reference" "U18"
-			(at 237.744 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "41464"
-			(at 246.38 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "c5eda96a-926c-4794-909f-940e9b451526")
-		)
-		(pin "10"
-			(uuid "e8ef6e60-3d1c-447e-b354-fcd0b32a9a55")
-		)
-		(pin "5"
-			(uuid "8cec9c4a-d7cb-43fb-98d0-86c1bc5e9be1")
-		)
-		(pin "13"
-			(uuid "03d75985-0999-44c3-8f06-42041b7421d2")
-		)
-		(pin "11"
-			(uuid "6b4b3484-5e90-46ef-b2bc-a689605e9d91")
-		)
-		(pin "16"
-			(uuid "b5972a12-dc34-4dcd-a192-dbd911a387d2")
-		)
-		(pin "8"
-			(uuid "40ad5657-2ee7-4468-8a1a-2379f5b557b1")
-		)
-		(pin "7"
-			(uuid "fa2a9762-4338-43a5-bb78-874ee6336851")
-		)
-		(pin "1"
-			(uuid "ae6214ad-33c4-4804-8066-451f32542802")
-		)
-		(pin "2"
-			(uuid "50ce74d3-4216-48ae-a929-28f09089a220")
-		)
-		(pin "4"
-			(uuid "495d8792-4dc8-42e9-92f8-d4eec2d0bb5e")
-		)
-		(pin "14"
-			(uuid "702e6fe8-6963-490f-ad04-fc83d8a82bd7")
-		)
-		(pin "15"
-			(uuid "fabe5646-4aaf-4a24-ab22-7b620d45953e")
-		)
-		(pin "18"
-			(uuid "072c8776-ed10-46be-b7f5-12230f3e0b12")
-		)
-		(pin "9"
-			(uuid "fc3b3371-a11a-4912-b176-11cdc98cd9e5")
-		)
-		(pin "6"
-			(uuid "f84ef680-f4f6-4c16-9454-c77a399793e5")
-		)
-		(pin "12"
-			(uuid "fdfd62a9-fee9-4822-a250-2178315a0fb9")
-		)
-		(pin "3"
-			(uuid "3c5b702f-21a4-4690-9dff-3c2936bb40d3")
-		)
-		(instances
-			(project "Lambda One"
-				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/312c3e8e-ed42-48bd-9873-bb680b3a5e72"
-					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 119.38 27.94 0)
 		(unit 1)
@@ -9368,7 +9376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm"
 			(at 40.64 170.18 0)
 			(effects
 				(font
@@ -9519,7 +9527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm"
 			(at 55.88 85.09 0)
 			(effects
 				(font

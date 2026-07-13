@@ -5574,7 +5574,7 @@
 			)
 		)
 	)
-	(global_label "TXC"
+	(global_label "TXD"
 		(shape input)
 		(at 236.22 93.98 0)
 		(fields_autoplaced yes)
@@ -5728,7 +5728,7 @@
 			)
 		)
 	)
-	(global_label "RXC"
+	(global_label "RXD"
 		(shape input)
 		(at 236.22 96.52 0)
 		(fields_autoplaced yes)
