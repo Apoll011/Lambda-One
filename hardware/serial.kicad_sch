@@ -7138,7 +7138,7 @@
 		(dnp no)
 		(uuid "46795868-1230-4bec-aff3-56bb618e8f98")
 		(property "Reference" "R23"
-			(at 205.74 83.8199 0)
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +7147,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 205.74 86.3599 0)
+			(at 207.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7231,6 @@
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SC16C654DBIB64_151"
@@ -7240,7 +7239,6 @@
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_7x7mm_P0.4mm"
@@ -7794,7 +7792,6 @@
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SC16C654DBIB64_151"
@@ -7803,7 +7800,6 @@
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_7x7mm_P0.4mm"
@@ -7816,7 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "file:///home/apoll011/Downloads/SC16C654B_654DB.pdf"
+		(property "Datasheet" ""
 			(at -23.368 112.014 0)
 			(effects
 				(font
@@ -8675,7 +8671,7 @@
 		(dnp no)
 		(uuid "e3adb657-8c9e-49a1-9090-02fe2d6ec42d")
 		(property "Reference" "R22"
-			(at 196.85 83.8199 0)
+			(at 198.374 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8684,7 +8680,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 196.85 86.3599 0)
+			(at 198.374 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
