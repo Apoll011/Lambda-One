@@ -8443,7 +8443,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 57.15 165.1 270)
+		(at 57.15 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8452,7 +8452,7 @@
 		(fields_autoplaced yes)
 		(uuid "c26ff447-e667-4905-ad08-c4a4b092fd9f")
 		(property "Reference" "#PWR0106"
-			(at 53.34 165.1 0)
+			(at 57.15 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,12 +8461,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 60.96 165.0999 90)
+			(at 57.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
