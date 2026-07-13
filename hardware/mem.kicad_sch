@@ -4916,16 +4916,6 @@
 		)
 		(uuid "1fa342f1-5175-4bf3-bdb9-36f929928b42")
 	)
-	(label "Bank_{2}"
-		(at 93.98 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1fceba83-9cc2-4548-8ec4-ccbd9f7cdb4b")
-	)
 	(label "Addr1"
 		(at 231.14 66.04 0)
 		(effects
@@ -4976,16 +4966,6 @@
 		)
 		(uuid "33fcaf4d-e5d3-42cb-b9f2-ead24fa134aa")
 	)
-	(label "Bank_{0}"
-		(at 231.14 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35109bb4-bbd0-48a2-af38-31070686f7f9")
-	)
 	(label "D1"
 		(at 199.39 66.04 180)
 		(effects
@@ -4995,16 +4975,6 @@
 			(justify right bottom)
 		)
 		(uuid "3a36eabb-49ce-489e-8c2b-dd4c99fb1e47")
-	)
-	(label "Bank_{1}"
-		(at 231.14 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ac3e606-9b43-48e5-a05b-c399a0c22dfa")
 	)
 	(label "D0"
 		(at 62.23 106.68 180)
@@ -5096,16 +5066,6 @@
 		)
 		(uuid "65b09183-2d14-4880-a9cf-eb83acdd03a6")
 	)
-	(label "Bank_{0}"
-		(at 93.98 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68673ebe-1695-4698-85a1-4f12b0b62201")
-	)
 	(label "D7"
 		(at 167.64 81.28 0)
 		(effects
@@ -5165,16 +5125,6 @@
 			(justify right bottom)
 		)
 		(uuid "87c4d794-35c1-449c-bb22-2a4f7dee006e")
-	)
-	(label "Bank_{1}"
-		(at 93.98 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c86fa24-390d-41c3-b49b-7db1f368666a")
 	)
 	(label "Addr5"
 		(at 143.51 76.2 180)
@@ -5385,16 +5335,6 @@
 			(justify left bottom)
 		)
 		(uuid "e517337d-bd69-4783-8544-aee450a18824")
-	)
-	(label "Bank_{2}"
-		(at 231.14 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5a506cb-a3f0-4c61-8405-da1f992685c6")
 	)
 	(label "D0"
 		(at 199.39 63.5 180)
@@ -5707,6 +5647,72 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "Bank_{0}"
+		(shape input)
+		(at 231.14 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2837a270-4e61-4ee1-8315-1a223ac74ad6")
+	)
+	(hierarchical_label "Bank_{1}"
+		(shape input)
+		(at 93.98 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4743d0a4-e8fc-4e62-bcd5-35ae8a1b1738")
+	)
+	(hierarchical_label "Bank_{2}"
+		(shape input)
+		(at 93.98 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55484a13-41ff-4119-9dfd-dd72f6304c1a")
+	)
+	(hierarchical_label "Bank_{2}"
+		(shape input)
+		(at 231.14 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d0836e3-455e-410e-8dd5-0ceb4906ff44")
+	)
+	(hierarchical_label "Bank_{0}"
+		(shape input)
+		(at 93.98 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7de4a57f-385b-41c3-9032-ef57c88e06c1")
+	)
+	(hierarchical_label "Bank_{1}"
+		(shape input)
+		(at 231.14 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fce24eea-ffb3-40a2-9e02-f9739fddc3b0")
 	)
 	(symbol
 		(lib_id "power:GND")

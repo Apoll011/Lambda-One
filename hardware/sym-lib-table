@@ -4,4 +4,5 @@
   (lib (name "65xx-library")(type "KiCad")(uri "${KIPRJMOD}/libraries/65xx-library.kicad_sym")(options "")(descr ""))
   (lib (name "ATF22V10C")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATF22V10C.kicad_sym")(options "")(descr ""))
   (lib (name "cern_ds1813_10_t_r")(type "KiCad")(uri "${KIPRJMOD}/libraries/cern_ds1813_10_t_r.kicad_sym")(options "")(descr ""))
+  (lib (name "net")(type "KiCad")(uri "${KIPRJMOD}/libraries/net.kicad_sym")(options "")(descr ""))
 )
