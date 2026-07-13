@@ -3464,16 +3464,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 129.54) (xy 64.77 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02fc9cc4-54ff-42b4-96db-262e1417d3db")
-	)
-	(wire
-		(pts
 			(xy 135.89 132.08) (xy 135.89 118.11)
 		)
 		(stroke
@@ -4481,16 +4471,6 @@
 			(type default)
 		)
 		(uuid "badda966-0d2e-4e59-8d90-009d4f5a9038")
-	)
-	(wire
-		(pts
-			(xy 50.8 129.54) (xy 50.8 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0374432-925b-4280-9c3d-6ffad53e8ba9")
 	)
 	(wire
 		(pts
@@ -5574,6 +5554,50 @@
 			)
 		)
 	)
+	(global_label "~{CLK}"
+		(shape input)
+		(at 64.77 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86b68f43-8724-412c-8cb4-ec523699d5ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.2167 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CLK}"
+		(shape output)
+		(at 41.91 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ce8edde-f661-442f-a729-4f1b14a9a24a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.4633 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R{slash}~{W}"
 		(shape input)
 		(at 119.38 134.62 180)
@@ -5620,7 +5644,7 @@
 	)
 	(global_label "CLK"
 		(shape input)
-		(at 35.56 134.62 180)
+		(at 26.67 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5630,7 +5654,7 @@
 		)
 		(uuid "daf96a36-6e9e-412a-ad78-d358c524976a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 134.62 0)
+			(at 20.1167 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5666,7 @@
 	)
 	(global_label "CLK"
 		(shape input)
-		(at 35.56 139.7 180)
+		(at 26.67 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5652,7 +5676,7 @@
 		)
 		(uuid "e8c16110-4599-41b7-b948-441f169e05ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 139.7 0)
+			(at 20.1167 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +6978,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 43.18 137.16 0)
+		(at 34.29 168.91 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6963,7 +6987,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbf62a8f-3b3d-44f5-af4e-174d9469f52a")
 		(property "Reference" "U6"
-			(at 43.1717 128.27 0)
+			(at 34.2817 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +6995,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 43.1717 130.81 0)
+			(at 34.2817 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +7003,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 43.18 137.16 0)
+			(at 34.29 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +7012,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 43.18 137.16 0)
+			(at 34.29 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +7021,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 43.18 137.16 0)
+			(at 34.29 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
