@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500" font-family="'Georgia', 'Times New Roman', serif">
+  <defs>
+    <style>
+      .sans { font-family: 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Consolas', 'SF Mono', 'Courier New', monospace; }
+      .title { font-size: 28px; font-weight: 700; fill: #1c2333; }
+      .subtitle { font-size: 14px; fill: #5a6072; }
+      .section-title { font-size: 19px; font-weight: 700; fill: #1c2333; }
+      .region-name { font-size: 16px; font-weight: 700; }
+      .region-detail { font-size: 12.5px; }
+      .addr { font-size: 13px; font-weight: 600; }
+      .bit { font-size: 12px; }
+      .footer { font-size: 11px; fill: #7a8090; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="1500" fill="#faf8f3"/>
+
+  <!-- Header -->
+  <text x="50" y="55" class="title">Lambda One Memory Map</text>
+  <text x="50" y="80" class="subtitle sans">8-bank, 16-bit address space — SRAM / I/O / ROM layout</text>
+  <line x1="50" y1="98" x2="950" y2="98" stroke="#c9c2b0" stroke-width="1"/>
+
+  <!-- ===================== BANK 00 COLUMN ===================== -->
+  <text x="90" y="140" class="section-title" text-anchor="middle">Bank 00</text>
+  <text x="90" y="160" class="subtitle mono" text-anchor="middle">$0000–$FFFF</text>
+
+  <!-- SRAM block -->
+  <rect x="50" y="180" width="220" height="290" rx="8" fill="#e4e9f2" stroke="#2c3e6b" stroke-width="1.5"/>
+  <text x="160" y="240" text-anchor="middle" class="region-name" fill="#2c3e6b">SRAM</text>
+  <text x="160" y="268" text-anchor="middle" class="addr mono" fill="#2c3e6b">$0000 – $7EFF</text>
+  <text x="160" y="292" text-anchor="middle" class="region-detail sans" fill="#4a5578">~32 KB</text>
+  <text x="160" y="314" text-anchor="middle" class="region-detail sans" fill="#4a5578">Zero page · Stack</text>
+  <text x="160" y="334" text-anchor="middle" class="region-detail sans" fill="#4a5578">System variables</text>
+
+  <!-- I/O sliver -->
+  <rect x="50" y="484" width="220" height="30" rx="5" fill="#eae4ee" stroke="#5b4470" stroke-width="1.5"/>
+  <text x="160" y="503" text-anchor="middle" class="region-detail mono" fill="#5b4470">I/O space · 256 B</text>
+
+  <!-- ROM block -->
+  <rect x="50" y="528" width="220" height="290" rx="8" fill="#f2e4e4" stroke="#7a2e2e" stroke-width="1.5"/>
+  <text x="160" y="588" text-anchor="middle" class="region-name" fill="#7a2e2e">ROM</text>
+  <text x="160" y="616" text-anchor="middle" class="addr mono" fill="#7a2e2e">$8000 – $FFFF</text>
+  <text x="160" y="640" text-anchor="middle" class="region-detail sans" fill="#8a4a4a">32 KB</text>
+  <text x="160" y="662" text-anchor="middle" class="region-detail sans" fill="#8a4a4a">OS kernel</text>
+  <text x="160" y="682" text-anchor="middle" class="region-detail sans" fill="#8a4a4a">Boot vectors</text>
+
+  <!-- ===================== BANKS 01-07 COLUMN ===================== -->
+  <text x="580" y="140" class="section-title" text-anchor="middle">Banks 01 – 07</text>
+  <text x="580" y="160" class="subtitle mono" text-anchor="middle">$0000–$FFFF (each)</text>
+
+  <g>
+    <rect x="280" y="180" width="660" height="80" rx="8" fill="#eeece6" stroke="#3d4a63" stroke-width="1.5"/>
+    <text x="305" y="226" class="region-name" fill="#3d4a63">Bank 01</text>
+    <text x="915" y="217" text-anchor="end" class="addr mono" fill="#3d4a63">$0000–$FFFF</text>
+    <text x="915" y="237" text-anchor="end" class="region-detail sans" fill="#5a647a">64 KB · SRAM</text>
+  </g>
+  <g>
+    <rect x="280" y="273" width="660" height="80" rx="8" fill="#eeece6" stroke="#3d4a63" stroke-width="1.5"/>
+    <text x="305" y="319" class="region-name" fill="#3d4a63">Bank 02</text>
+    <text x="915" y="310" text-anchor="end" class="addr mono" fill="#3d4a63">$0000–$FFFF</text>
+    <text x="915" y="330" text-anchor="end" class="region-detail sans" fill="#5a647a">64 KB · SRAM</text>
+  </g>
+  <g>
+    <rect x="280" y="366" width="660" height="80" rx="8" fill="#eeece6" stroke="#3d4a63" stroke-width="1.5"/>
+    <text x="305" y="412" class="region-name" fill="#3d4a63">Bank 03</text>
+    <text x="915" y="403" text-anchor="end" class="addr mono" fill="#3d4a63">$0000–$FFFF</text>
+    <text x="915" y="423" text-anchor="end" class="region-detail sans" fill="#5a647a">64 KB · SRAM</text>
+  </g>
+  <g>
+    <rect x="280" y="459" width="660" height="80" rx="8" fill="#eeece6" stroke="#3d4a63" stroke-width="1.5"/>
+    <text x="305" y="505" class="region-name" fill="#3d4a63">Bank 04</text>
+    <text x="915" y="496" text-anchor="end" class="addr mono" fill="#3d4a63">$0000–$FFFF</text>
+    <text x="915" y="516" text-anchor="end" class="region-detail sans" fill="#5a647a">64 KB · SRAM</text>
+  </g>
+  <g>
+    <rect x="280" y="552" width="660" height="80" rx="8" fill="#eeece6" stroke="#3d4a63" stroke-width="1.5"/>
+    <text x="305" y="598" class="region-name" fill="#3d4a63">Bank 05</text>
+    <text x="915" y="589" text-anchor="end" class="addr mono" fill="#3d4a63">$0000–$FFFF</text>
+    <text x="915" y="609" text-anchor="end" class="region-detail sans" fill="#5a647a">64 KB · SRAM</text>
+  </g>
+  <g>
+    <rect x="280" y="645" width="660" height="80" rx="8" fill="#eeece6" stroke="#3d4a63" stroke-width="1.5"/>
+    <text x="305" y="691" class="region-name" fill="#3d4a63">Bank 06</text>
+    <text x="915" y="682" text-anchor="end" class="addr mono" fill="#3d4a63">$0000–$FFFF</text>
+    <text x="915" y="702" text-anchor="end" class="region-detail sans" fill="#5a647a">64 KB · SRAM</text>
+  </g>
+  <g>
+    <rect x="280" y="738" width="660" height="80" rx="8" fill="#eeece6" stroke="#3d4a63" stroke-width="1.5"/>
+    <text x="305" y="784" class="region-name" fill="#3d4a63">Bank 07</text>
+    <text x="915" y="775" text-anchor="end" class="addr mono" fill="#3d4a63">$0000–$FFFF</text>
+    <text x="915" y="795" text-anchor="end" class="region-detail sans" fill="#5a647a">64 KB · SRAM</text>
+  </g>
+
+  <!-- ===================== I/O SPACE BREAKDOWN ===================== -->
+  <text x="50" y="885" class="title">I/O space breakdown</text>
+  <text x="50" y="910" class="subtitle mono">$7F00 – $7FFF · 512 bytes total · decoded by A8, A7, A6, A5, A4</text>
+  <line x1="50" y1="928" x2="950" y2="928" stroke="#c9c2b0" stroke-width="1"/>
+
+  <!-- Column headers for I/O table -->
+  <text x="70" y="962" class="footer mono">A8</text>
+  <text x="105" y="962" class="footer mono">A7</text>
+  <text x="140" y="962" class="footer mono">A6</text>
+  <text x="175" y="962" class="footer mono">A5</text>
+  <text x="230" y="962" class="footer sans">Device</text>
+  <text x="930" y="962" text-anchor="end" class="footer sans">Address · size</text>
+
+  
+  <!-- Ext0 -->
+  <g>
+    <rect x="50" y="982" width="900" height="52" rx="8" fill="#f2e4e4" stroke="#7a2e2e" stroke-width="1.5"/>
+    <text x="70" y="1014" class="bit mono" fill="#7a2e2e">1</text>
+    <text x="105" y="1014" class="bit mono" fill="#7a2e2e">0</text>
+    <text x="140" y="1014" class="bit mono" fill="#7a2e2e">0</text>
+    <text x="175" y="1014" class="bit mono" fill="#7a2e2e">x</text>
+    <text x="230" y="1014" class="region-name" fill="#7a2e2e">Ext0 port</text>
+    <text x="930" y="1008" text-anchor="end" class="addr mono" fill="#7a2e2e">$7F00–$7F3F</text>
+    <text x="930" y="1024" text-anchor="end" class="region-detail sans" fill="#8a4a4a">64 bytes · 2 chunks</text>
+  </g>
+ 
+  <!-- Ext1 -->
+  <g>
+    <rect x="50" y="1044" width="900" height="52" rx="8" fill="#f2e4e4" stroke="#7a2e2e" stroke-width="1.5"/>
+    <text x="70" y="1076" class="bit mono" fill="#7a2e2e">1</text>
+    <text x="105" y="1076" class="bit mono" fill="#7a2e2e">0</text>
+    <text x="140" y="1076" class="bit mono" fill="#7a2e2e">1</text>
+    <text x="175" y="1076" class="bit mono" fill="#7a2e2e">x</text>
+    <text x="230" y="1076" class="region-name" fill="#7a2e2e">Ext1 port</text>
+    <text x="930" y="1070" text-anchor="end" class="addr mono" fill="#7a2e2e">$7F40–$7F7F</text>
+    <text x="930" y="1086" text-anchor="end" class="region-detail sans" fill="#8a4a4a">64 bytes · 2 chunks</text>
+  </g>
+ 
+  <!-- Serial -->
+  <g>
+    <rect x="50" y="1106" width="900" height="52" rx="8" fill="#e3ece2" stroke="#2f5233" stroke-width="1.5"/>
+    <text x="70" y="1138" class="bit mono" fill="#2f5233">1</text>
+    <text x="105" y="1138" class="bit mono" fill="#2f5233">1</text>
+    <text x="140" y="1138" class="bit mono" fill="#2f5233">0</text>
+    <text x="175" y="1138" class="bit mono" fill="#2f5233">0</text>
+    <text x="230" y="1138" class="region-name" fill="#2f5233">Serial</text>
+ 
+    <!-- Cell 1: CH A - carries the address -->
+    <rect x="315" y="1112" width="148" height="40" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#2f5233" stroke-width="1"/>
+    <text x="324" y="1130" class="cell-title sans" fill="#2f5233">CH A</text>
+    <text x="324" y="1145" class="cell-data mono" fill="#2f5233">$7F80–$7F87</text>
+ 
+    <!-- Cell 2: CH B - data -->
+    <rect x="473" y="1112" width="148" height="40" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#2f5233" stroke-width="1"/>
+    <text x="485" y="1130" class="cell-title sans" fill="#2f5233">CH B</text>
+    <text x="485" y="1145" class="cell-data mono" fill="#2f5233">7F88-7F8F</text>
+ 
+    <!-- Cell 3: CH C - data -->
+    <rect x="630" y="1112" width="148" height="40" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#2f5233" stroke-width="1"/>
+    <text x="640" y="1130" class="cell-title sans" fill="#2f5233">CH C</text>
+    <text x="640" y="1145" class="cell-data mono" fill="#2f5233">$7F90–$7F97</text>
+ 
+    <!-- Cell 4: CH D - data -->
+    <rect x="787" y="1112" width="148" height="40" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#2f5233" stroke-width="1"/>
+    <text x="795" y="1130" class="cell-title sans" fill="#2f5233">CH D</text>
+    <text x="795" y="1145" class="cell-data mono" fill="#2f5233">$7F98–$7F9F</text>
+  </g>
+ 
+  <!-- GPIOCs -->
+  <g>
+    <rect x="50" y="1168" width="900" height="52" rx="8" fill="#f2ecdc" stroke="#8a6d1f" stroke-width="1.5"/>
+    <text x="70" y="1200" class="bit mono" fill="#8a6d1f">1</text>
+    <text x="105" y="1200" class="bit mono" fill="#8a6d1f">1</text>
+    <text x="140" y="1200" class="bit mono" fill="#8a6d1f">0</text>
+    <text x="175" y="1200" class="bit mono" fill="#8a6d1f">1</text>
+    <text x="230" y="1200" class="region-name" fill="#8a6d1f">GPIOs</text>
+ 
+    <!-- Cell 1: VIA #1 - carries the address -->
+    <rect x="315" y="1174" width="306" height="40" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#8a6d1f" stroke-width="1"/>
+    <text x="324" y="1193" class="cell-title sans" fill="#8a6d1f">VIA #1</text>
+    <text x="324" y="1208" class="cell-data mono" fill="#8a6d1f">$7FA0–$7FAF</text>
+ 
+    <!-- Cell 2: VIA #2 - data -->
+    <rect x="630" y="1174" width="306" height="40" rx="4" fill="#ffffff" fill-opacity="0.55" stroke="#8a6d1f" stroke-width="1"/>
+    <text x="640" y="1193" class="cell-title sans" fill="#8a6d1f">VIA #2</text>
+    <text x="640" y="1208" class="cell-data mono" fill="#8a6d1f">$7FB0–$7FBF</text>
+  </g>
+ 
+  <!-- SID -->
+  <g>
+    <rect x="50" y="1230" width="900" height="52" rx="8" fill="#e6ecee" stroke="#3d4f5c" stroke-width="1.5"/>
+    <text x="70" y="1262" class="bit mono" fill="#3d4f5c">1</text>
+    <text x="105" y="1262" class="bit mono" fill="#3d4f5c">1</text>
+    <text x="140" y="1262" class="bit mono" fill="#3d4f5c">1</text>
+    <text x="175" y="1262" class="bit mono" fill="#3d4f5c">0</text>
+    <text x="230" y="1262" class="region-name" fill="#3d4f5c">SID</text>
+    <text x="930" y="1256" text-anchor="end" class="addr mono" fill="#3d4f5c">$7FC0–$7FDF</text>
+    <text x="930" y="1272" text-anchor="end" class="region-detail sans" fill="#5a6c78">32 bytes</text>
+  </g>
+ 
+  <!-- Video -->
+  <g>
+    <rect x="50" y="1292" width="900" height="52" rx="8" fill="#e4e9f2" stroke="#2c3e6b" stroke-width="1.5"/>
+    <text x="70" y="1324" class="bit mono" fill="#2c3e6b">1</text>
+    <text x="105" y="1324" class="bit mono" fill="#2c3e6b">1</text>
+    <text x="140" y="1324" class="bit mono" fill="#2c3e6b">1</text>
+    <text x="175" y="1324" class="bit mono" fill="#2c3e6b">1</text>
+    <text x="230" y="1324" class="region-name" fill="#2c3e6b">Video</text>
+    <text x="930" y="1318" text-anchor="end" class="addr mono" fill="#2c3e6b">$7FE0–$7FFF</text>
+    <text x="930" y="1334" text-anchor="end" class="region-detail sans" fill="#4a5578">32 bytes</text>
+  </g>
+</svg>
