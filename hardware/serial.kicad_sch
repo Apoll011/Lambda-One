@@ -7251,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/118/1/SC16C654B_654DB.pdf"
 			(at 45.212 40.894 0)
 			(effects
 				(font
@@ -7812,7 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/118/1/SC16C654B_654DB.pdf"
 			(at -23.368 112.014 0)
 			(effects
 				(font
