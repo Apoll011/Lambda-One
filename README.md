@@ -1,9 +1,15 @@
+Here is your updated and significantly improved `README.md` file. 
+
+This version replaces all outdated specifications, incorporates the correct 512 KB banked RAM details, the SC16C654 Quad UART configuration (including the onboard USB-to-serial channels and TTL headers), the modular breakout details, and breaks down your memory map down to individual register windows and SPI chip-select levels.
+
+***
+
 # Lambda One
 
-> A modern educational computer built around the **Western Design Center W65C816S**, combining classic computer architecture with modern design practices, clean documentation, and an expandable hardware platform.
+> A modern educational computer built around the **Western Design Center W65C816S**, combining classic 16-bit computer architecture with robust hardware design, high-resolution video, modern USB connectivity, and rich expandability.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-Early%20Hardware%20Design-orange)
+![Status](https://img.shields.io/badge/status-Schematics%20Complete-success)
 ![CPU](https://img.shields.io/badge/CPU-W65C816S-success)
 ![KiCad](https://img.shields.io/badge/Designed%20with-KiCad-blue)
 
@@ -11,329 +17,165 @@
 
 ## Overview
 
-Lambda One is a personal hobby computer designed as a platform for learning and experimenting with classic computer architecture. Rather than emulating vintage hardware, the project aims to build a complete computer from individual integrated circuits using modern PCB design and documentation standards.
+Lambda One is a personal hobby computer designed as a hardware platform for exploring and experimenting with retrocomputer design. The project focuses on building a complete 16-bit computer from discrete integrated circuits using modern PCB layout standards, structured system design, and open documentation.
 
-The computer is based on the **W65C816S**, the 16-bit successor to the famous 6502 processor, and combines it with well-known peripherals such as the Yamaha V9958 video processor, MOS 8580 SID sound chip, W65C22 VIA interface adapters, and Ethernet connectivity through the W5500.
+At its core is the **W65C816S**, the native 16-bit successor to the legendary 6502 microprocessor. Rather than limiting the architecture to vintage constraints, the platform integrates modern conveniences and robust features: 512 KB of banked SRAM, a high-performance Yamaha V9958 video display processor with 128 KB of dedicated VRAM, a flexible SC16C654 Quad UART yielding onboard USB-serial interfaces, hardware TCP/IP Ethernet networking, and real-time clock tracking.
 
-The project emphasizes simplicity, readability, and expandability over raw performance. Every hardware decision is made with education and understanding in mind, making the computer approachable both for beginners and experienced enthusiasts interested in retro computing.
-
-Although inspired by classic home computers from the 1980s, Lambda One is not intended to recreate any existing machine. Instead, it is designed as its own computer with a modern workflow, open documentation, and room for future expansion.
+The design prioritizes structural clarity, clean logic decoding, and modular hardware expansion over raw clock-speed optimization. This makes the computer approachable for developers interested in low-level operating system assembly, hardware interface programming, and classic computer systems design.
 
 ---
 
 ## Goals
 
-The primary goals of the project are:
-
-- Learn the W65C816 architecture in depth.
-- Build a complete computer using individual ICs.
-- Create clean and understandable schematics.
-- Keep the hardware relatively simple without sacrificing functionality.
-- Use modern PCB design practices.
-- Produce thorough documentation for every subsystem.
-- Design a platform that can easily be expanded in future revisions.
-- Develop a custom ROM operating system tailored specifically for the hardware.
-- Make the entire project open source.
+- Learn and master the W65C816S 16-bit architecture in a bare-metal environment.
+- Construct a complete single-board computer using physical, easily understood ICs.
+- Create highly detailed, readable, and reproducible schematics.
+- Implement highly efficient address decoding using programmable logic.
+- Integrate modern connectivity, such as direct USB debugging and Ethernet, directly onto the motherboard.
+- Keep the hardware approachable and friendly to hand-assembly.
+- Write a clean, modular custom ROM operating system from scratch.
 
 ---
 
 ## Current Status
 
-The project is currently in the **Early Hardware Design** phase.
+The project is currently in the **Schematics Complete / Moving to PCB Layout** phase.
 
-Current work includes:
-
-- Hardware architecture
-- Memory map
-- Component selection
-- KiCad schematic development
-
-The PCB has not yet been manufactured, and no firmware or operating system has been written at this stage.
+- **Schematics**: Completed (v1) and thoroughly verified across all subsystems.
+- **Logic Design**: Address decoding written, compiled, and validated using CUPL logic equations.
+- **Hardware Integration**: High-density footprints (like the Quad UART, video RAM matrix, and PLD) are fully integrated.
+- **Next steps**: PCB component placement, power delivery routing, and track routing in KiCad.
 
 ---
 
 ## Hardware Specifications
 
-| Component | Part |
-|------------|------|
-| **CPU** | W65C816SxP (40-pin DIP) |
-| **RAM** | Alliance Memory AS6C1008-55PCN (128 KB SRAM) |
-| **ROM** | AT28C256 EEPROM (32 KB) |
-| **GPIO** | 2 × W65C22 VIA |
-| **Serial** | W65C51 ACIA |
-| **Sound** | MOS 8580 SID |
-| **Video** | Yamaha V9958 |
-| **Storage** | SD Card (SPI via VIA) |
-| **Real-Time Clock** | DS3231 |
-| **Networking** | W5500 Ethernet Controller |
-| **Address Decoder** | ATF22V10 |
-| **Reset Supervisor** | DS1813 |
-| **Clock** | 14.7456 MHz |
+| Component | Description | Part |
+|------------|-------------|------|
+| **CPU** | 16-Bit Microprocessor (40-pin DIP) | W65C816SxP |
+| **System Clock** | 8 MHz Crystal Oscillator | TFT680 |
+| **RAM** | 512 KB Static RAM (Bank Switched) | Alliance Memory AS6C4008-55PCN |
+| **ROM** | 32 KB Low-Voltage EEPROM | AT28LV256 |
+| **Video Display** | MSX2+-class Video Display Processor | Yamaha V9958 |
+| **Video RAM** | 128 KB VRAM (4 × 64K×4 DRAM matrix) | 4 × 41464 |
+| **Serial / UART** | Quad Channel UART with 64-byte FIFO | NXP SC16C654DBIB64 |
+| **USB Connectivity** | Dual Onboard USB-to-Serial Bridges | 2 × CH340C (USB-C & USB-A) |
+| **GPIO** | Dual Versatile Interface Adapters | 2 × W65C22S VIA |
+| **Sound** | 3-Voice Synthesizer Chip | MOS 8580 SID (Logic Mapped) |
+| **Networking** | Hardware TCP/IP Ethernet Module | W5500 (via WIZ850io Breakout) |
+| **Real-Time Clock** | High-Precision I2C RTC | DS3231 (via DeadOn RTC Breakout) |
+| **Storage** | Secure Digital Storage Slot | Micro SD Card Breakout (SPI) |
+| **Address Decoder** | 24-pin Erasable Programmable Logic Device | ATF22V10C |
+| **Reset Supervisor** | Active-Low Reset Controller with Debounce | DS1813 |
 
 ---
 
-## Memory Map
+## Address Decoding & Memory Map
 
-![Memory Map](img/memory-map.png)
+The Lambda One uses an ATF22V10C PLD to decode the address space of Bank 0. High-level memory is divided into three primary segments: System RAM, an I/O peripheral page, and System ROM. 
 
-The current memory layout reserves the lower portion of the address space for RAM while placing the system ROM in the upper half of memory. Memory-mapped peripherals occupy a dedicated region near the boundary between RAM and ROM.
+![Memory Map](memory_map.svg)
 
-### RAM
+### High-Level Memory Map
 
-The computer contains **128 KB of SRAM** provided by an **Alliance Memory AS6C1008-55PCN**.
+| Address Range | Size | Logical Space | Chip Select Signal | Description |
+|---|---|---|---|---|
+| **`$0000 - $7EFF`** | ~32 KB | Bank 0 RAM | `n_RAM_CS` | Lower half of Bank 0 System RAM |
+| **`$7F00 - $7FFF`** | 256 B | Bank 0 I/O Page | (Varies) | Dedicated memory-mapped peripheral block |
+| **`$8000 - $FFFF`** | 32 KB | Bank 0 ROM | `n_ROM_CS` | Read-only memory for boot firmware / OS kernel |
+| **`Banks $01 - $07`** | 448 KB | Extended RAM | `n_RAM_CS` | 7 physical pages of banked RAM (64 KB each) |
 
-Since the W65C816 exposes a 16-bit address bus externally, additional RAM is accessed through bank switching. A bank register selects which 32 KB section of physical SRAM is visible within the processor's address space.
+*Note: The physical 512 KB of SRAM is addressed using a 74HC373 latch (`BankRegister1`). This register captures the bank address from the CPU's multiplexed data bus during the Phase 1 ($\phi_1$) clock cycle, driving physical address lines `A16`, `A17`, and `A18` to enable seamless banking across the 8 logical windows.*
 
-This provides significantly more memory while maintaining compatibility with the processor's external interface.
+### I/O Page Map (`$7F00 - $7FFF`)
 
-### ROM
+The 256-byte peripheral block at `$7F00 - $7FFF` is subdivided into dedicated chip select zones by the ATF22V10C PLD and supplementary logic gates:
 
-The upper 32 KB of the address space contains an **AT28C256 EEPROM**.
+| Address Range | Size | CS Signal | Subsystem / Device | Description |
+|---|---|---|---|---|
+| **`$7F00 - $7F3F`** | 64 B | `n_E0_CS` | **Expansion Header Ext0** | General system expansions and prototyping |
+| **`$7F40 - $7F7F`** | 64 B | `n_E1_CS` | **Expansion Header Ext1** | General system expansions and prototyping |
+| **`$7F80 - $7F9F`** | 32 B | `SERIALCs` | **SC16C654 Quad UART** | See the Quad UART breakdown below |
+| **`$7FA0 - $7FAF`** | 16 B | `GPIOCs` (A4=0) | **W65C22S VIA #1 (U4)** | Dedicated general-purpose User Port (GPIO C & D) |
+| **`$7FB0 - $7FBF`** | 16 B | `GPIOCs` (A4=1) | **W65C22S VIA #2 (U2)** | System controller managing the master SPI bus |
+| **`$7FC0 - $7FDF`** | 32 B | `n_SCS` | **MOS 8580 SID** | Classic synthesizer audio |
+| **`$7FE0 - $7FFF`** | 32 B | `n_VCS` | **Yamaha V9958 VDP** | Dedicated video display processor registers |
 
-The ROM is intended to contain:
+#### SC16C654 Quad UART Subspace Breakdown (`$7F80 - $7F9F`)
 
-- System kernel
-- Device drivers
-- Boot routines
-- Command shell
-- File system support
-- Development tools
-- Built-in programming language
+The Quad UART occupies 32 bytes of address space, providing 8 registers per channel:
 
-Eventually this ROM will function as both the firmware and operating system of Lambda One.
-
-### I/O Space
-
-Memory-mapped I/O occupies a dedicated region beginning at **0x7F00**.
-
-Each peripheral receives a 32-byte address window, greatly simplifying address decoding while leaving room for future expansion.
-
-Current peripherals include:
-
-| Address | Device |
-|---------|--------|
-| 0x7F00 | VIA #1 |
-| 0x7F20 | VIA #2 |
-| 0x7F40 | W65C51 ACIA |
-| 0x7F60 | MOS 8580 SID |
-| 0x7F80 | Yamaha V9958 |
-| 0x7FA0 | DS3231 RTC |
-| 0x7FC0 | W5500 Ethernet |
-| 0x7FE0 | Reserved Expansion |
-
-The exact memory map may evolve throughout development.
+*   **Channel A** (`$7F80 - $7F87`): Connected to onboard **USB-C Port (J5)** via a CH340C bridge. Serves as the primary system debug and boot terminal.
+*   **Channel B** (`$7F88 - $7F8F`): Connected to onboard **USB-A Port (J7)** via a CH340C bridge. Ideal for auxiliary communications.
+*   **Channel C** (`$7F90 - $7F97`): Routed to a dedicated **5V TTL logic-level header (J8)**.
+*   **Channel D** (`$7F98 - $7F9F`): Routed to a dedicated **5V TTL logic-level header (J9)**.
 
 ---
 
-## Major Components
+## Architecture Design Detail
 
-### W65C816S
+### Modular Breakout Integration
 
-The W65C816S is a modern CMOS implementation of the classic 6502 architecture with native 16-bit capabilities.
+To maintain excellent signal integrity and keep the mainboard highly accessible for hand-assembly, Lambda One implements complex high-frequency and sensitive peripheral systems using standardized modular breakout boards:
 
-It maintains compatibility with existing 6502 software while introducing:
+*   **Ethernet (WIZ850io Breakout)**: Houses the W5500 chip, onboard magnetics, and an RJ-45 port. By offloading the TCP/IP stack to dedicated hardware and utilizing pre-isolated layout modules, high-frequency network noises are kept away from the sensitive system bus.
+*   **Real-Time Clock (DeadOn RTC Breakout)**: Integrates the high-precision, temperature-compensated DS3231 RTC oscillator and a CR1220 backup battery holder in a compact, noise-shielded module.
+*   **Micro SD Card Breakout**: Houses a reliable card socket with standard level-shifting to simplify safe interactions with high-capacity flash storage.
 
-- 24-bit addressing
-- Larger register sizes
-- Higher performance
-- Banked memory
-- Additional instructions
+### Master SPI Bus Routing
 
-It serves as the heart of Lambda One.
+The system's master SPI bus is implemented via software bit-banging on **VIA #2 (U2)**. Using Port B of the interface adapter, the system controls clocking and registers while orchestrating communication with multiple SPI devices using dedicated active-low select signals:
 
----
-
-### AS6C1008 SRAM
-
-The Alliance Memory AS6C1008 provides 128 KB of fast static RAM.
-
-Unlike DRAM, SRAM requires no refresh circuitry, simplifying the hardware considerably while providing excellent access times suitable for the W65C816.
-
----
-
-### AT28C256 EEPROM
-
-The system firmware is stored in an electrically erasable EEPROM.
-
-Unlike UV EPROMs, it can be reprogrammed directly using a programmer without ultraviolet light, making development significantly easier.
-
----
-
-### W65C22 VIA
-
-Two W65C22 Versatile Interface Adapters provide general-purpose I/O.
-
-Together they offer:
-
-- Parallel I/O
-- Timers
-- Interrupt generation
-- Handshaking
-- SPI bit-banging for SD card support
-
-They form the primary interface between the CPU and external peripherals.
-
----
-
-### W65C51 ACIA
-
-The Asynchronous Communications Interface Adapter provides serial communication.
-
-This enables:
-
-- Terminal access
-- Debugging
-- Firmware upload
-- Communication with modern computers
-
----
-
-### MOS 8580 SID
-
-The SID is the iconic sound chip originally developed for the Commodore 64.
-
-It provides three programmable voices, waveform generation, filtering, and envelope control, allowing Lambda One to produce authentic synthesizer-style audio.
-
----
-
-### Yamaha V9958
-
-The V9958 is a dedicated video display processor originally used in MSX2+ computers.
-
-It features:
-
-- Hardware sprites
-- Tile-based graphics
-- Bitmap modes
-- Independent video RAM
-- Hardware scrolling
-
-Using a dedicated graphics processor significantly reduces CPU overhead for video output.
-
----
-
-### DS3231
-
-The DS3231 is a high-precision real-time clock with an integrated temperature-compensated crystal oscillator.
-
-It maintains accurate date and time even when the main system is powered off.
-
----
-
-### W5500 Ethernet Controller
-
-Networking is provided by the W5500.
-
-This hardware TCP/IP controller implements the networking stack internally, allowing the W65C816 to communicate over Ethernet without the burden of implementing TCP/IP entirely in software.
-
----
-
-### ATF22V10
-
-Address decoding is implemented using an ATF22V10 programmable logic device.
-
-Using programmable logic instead of multiple discrete logic chips:
-
-- reduces chip count,
-- simplifies PCB routing,
-- allows future address map modifications,
-- improves maintainability.
-
----
-
-### DS1813
-
-The DS1813 reset supervisor guarantees reliable startup by holding the processor in reset until the power supply is stable.
+*   `PB0` $\rightarrow$ **MOSI** (Master Out Slave In)
+*   `PB1` $\rightarrow$ **MISO** (Master In Slave Out)
+*   `PB2` $\rightarrow$ **SCK** (Serial Clock)
+*   `PB3` $\rightarrow$ `SPL_CS0` $\rightarrow$ **DS3231 Real-Time Clock**
+*   `PB4` $\rightarrow$ `SPL_CS1` $\rightarrow$ **W5500 Ethernet Adapter**
+*   `PB5` $\rightarrow$ `SPL_CS2` $\rightarrow$ **Micro SD Storage Card**
+*   `PB6` $\rightarrow$ `SPL_CS3` $\rightarrow$ **External SPI Header 1** (For user expansion)
+*   `PB7` $\rightarrow$ `SPL_CS4` $\rightarrow$ **External SPI Header 2** (For user expansion)
 
 ---
 
 ## Planned Software
 
-The ROM will eventually contain a custom operating environment designed specifically for Lambda One.
+The ROM is designed to boot directly into a custom ROM-based operating system structured for system configuration and user software execution. 
 
-Planned features include:
-
-- ROM-based kernel
-- Interactive command shell
-- Built-in monitor/debugger
-- Device drivers
-- FAT-compatible SD card support
-- Simple multitasking (experimental)
-- Ethernet support
-- Custom programming language (not BASIC)
-- Assembler
-- Utilities
-- Development tools
-
-The programming language is planned to be designed specifically for Lambda One rather than adopting an existing language like Microsoft BASIC.
-
----
-
-## Repository Structure
-
-```
-Lambda-One/
-├── img/            # Images and diagrams
-├── kicad/          # KiCad schematics and PCB files
-├── LICENSE
-└── README.md
-```
-
-Additional directories will be added as the project progresses.
+Key planned layers include:
+- **System Kernel**: Handles base interrupts, memory bank allocation, and system execution states.
+- **Hardware Abstraction Layer (HAL)**: Hardware-specific drivers for SPI-based storage, the W5500 Ethernet stack, and RTC clock management.
+- **Integrated Video/Audio Engines**: Low-overhead sprite, tile, and geometric graphic drawing functions for the Yamaha V9958 alongside sound synthesizers.
+- **Interactive Command Shell**: Accessible over USB Serial Channel A, providing memory editors, machine code monitors, file systems management, and system debugging tools.
 
 ---
 
 ## Roadmap
 
 ### Hardware
-
-- [x] Select CPU
-- [x] Select peripherals
-- [x] Design memory map
-- [ ] Complete schematic
-- [ ] PCB Revision A
-- [ ] PCB assembly
-- [ ] Initial power-on
-- [ ] Hardware validation
+- [x] Select CPU & Peripherals
+- [x] Design Memory Mapping logic
+- [x] Complete KiCad schematic layout
+- [ ] Complete PCB routing & physical layout
+- [ ] Manufacture PCB Revision A
+- [ ] Assembly & power-on testing
+- [ ] Hardware verification of clocks, rails, and buses
 
 ### Firmware
-
-- [ ] Boot ROM
-- [ ] Memory tests
-- [ ] Serial monitor
-- [ ] SD card support
-- [ ] Video driver
-- [ ] Sound driver
-- [ ] Ethernet driver
-
-### Operating System
-
-- [ ] Kernel
-- [ ] File system
-- [ ] Shell
-- [ ] Custom programming language
-- [ ] Documentation
-
----
-
-## Why "Lambda One"?
-
-The name **Lambda One** reflects the project's identity as a modern, cleanly designed computer inspired by classic systems while remaining its own platform.
-
-Rather than recreating an existing machine, Lambda One aims to become a unique educational computer focused on learning, experimentation, and open hardware development.
+- [ ] Write first-stage Boot ROM
+- [ ] Write RAM memory diagnostic tests
+- [ ] Write basic interactive Serial Monitor
+- [ ] Write SD card SPI filesystem drivers
+- [ ] Write V9958 RGB video drivers
+- [ ] Implement network sockets over the W5500
 
 ---
 
 ## Contributing
 
-Although the project is currently in its early hardware design phase, suggestions, discussions, bug reports, and design feedback are always welcome.
-
-If you'd like to contribute, feel free to open an Issue or submit a Pull Request.
+Although the project is transitioning from schematics validation into physical PCB layout, general input, structural suggestions, and reviews are highly welcome. If you have any feedback or notice potential optimizations, please open an Issue or submit a Pull Request.
 
 ---
 
 ## License
 
-This project is licensed under the **MIT License**.
-
-See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
