@@ -3,4 +3,5 @@
   (lib (name "ATF22V10C-10PU")(type "KiCad")(uri "${KIPRJMOD}/libraries/ATF22V10C-10PU")(options "")(descr ""))
   (lib (name "DS1813-5")(type "KiCad")(uri "${KIPRJMOD}/libraries/DS1813-5")(options "")(descr ""))
   (lib (name "AT28C256-15PU")(type "KiCad")(uri "${KIPRJMOD}/libraries/AT28C256-15PU.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints.pretty")(options "")(descr ""))
 )

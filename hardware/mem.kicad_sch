@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Lambda One - Memory System")
-		(date "2026-07-11")
+		(date "2026-07-13")
 		(rev "v1")
 		(company "Embrace")
 		(comment 1 "https://github.com/Apoll011/Lambda-One")
@@ -2911,12 +2911,6 @@
 		(color 0 0 0 0)
 		(uuid "62b25b59-2ad3-4646-a7f6-726fc43c4e70")
 	)
-	(junction
-		(at 135.89 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5cb7f98-51f0-46f9-b799-8e030e8bbfa5")
-	)
 	(no_connect
 		(at 93.98 121.92)
 		(uuid "0c8c7aac-3ed2-4531-b4ae-03bbee4c91d6")
@@ -3454,36 +3448,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 118.11) (xy 128.27 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02942254-0444-4eab-aacb-f73280e049b4")
-	)
-	(wire
-		(pts
-			(xy 135.89 132.08) (xy 135.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04189fc9-8a28-4338-a1f1-f52724d8bea6")
-	)
-	(wire
-		(pts
-			(xy 227.33 128.27) (xy 200.66 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0465769c-5f22-49d1-af2c-f5b770aa7ae2")
-	)
-	(wire
-		(pts
 			(xy 228.6 71.12) (xy 240.03 71.12)
 		)
 		(stroke
@@ -3514,16 +3478,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 106.68) (xy 146.05 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "121e529f-da3a-4c78-9219-de4cd2346ff2")
-	)
-	(wire
-		(pts
 			(xy 179.07 76.2) (xy 203.2 76.2)
 		)
 		(stroke
@@ -3541,6 +3495,16 @@
 			(type default)
 		)
 		(uuid "16f258d7-7ccd-4c14-a648-6aa627d4fbb5")
+	)
+	(wire
+		(pts
+			(xy 74.93 185.42) (xy 83.82 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195d24af-3d86-4fac-a81a-8be4a7636fc7")
 	)
 	(wire
 		(pts
@@ -3594,13 +3558,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 203.2 91.44)
+			(xy 199.39 91.44) (xy 203.2 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "206bb96d-d698-42c0-8bd7-009d874da83c")
+	)
+	(wire
+		(pts
+			(xy 143.51 106.68) (xy 146.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211f3a14-504e-4b6c-a551-142cb69f2283")
 	)
 	(wire
 		(pts
@@ -3651,16 +3625,6 @@
 			(type default)
 		)
 		(uuid "2598cb3e-13a4-42ef-b86c-4636713d2772")
-	)
-	(wire
-		(pts
-			(xy 227.33 140.97) (xy 227.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27cb433b-e6a7-48d4-92e6-1145501dd0cb")
 	)
 	(bus
 		(pts
@@ -4014,16 +3978,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 185.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750be6dd-751b-41bc-80a4-67e81c3b1674")
-	)
-	(wire
-		(pts
 			(xy 228.6 73.66) (xy 240.03 73.66)
 		)
 		(stroke
@@ -4061,16 +4015,6 @@
 			(type default)
 		)
 		(uuid "7bbb9839-6ddc-4692-8df0-d32efdf843f2")
-	)
-	(wire
-		(pts
-			(xy 134.62 132.08) (xy 135.89 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce367eb-b588-49b4-8b8a-5fe95be07291")
 	)
 	(wire
 		(pts
@@ -4141,16 +4085,6 @@
 			(type default)
 		)
 		(uuid "80b73d60-8c5f-4013-8bf2-1b2be5e0e804")
-	)
-	(wire
-		(pts
-			(xy 203.2 143.51) (xy 212.09 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ec6fcd-06c7-4fe9-86c9-69b308b6fa35")
 	)
 	(bus
 		(pts
@@ -4464,16 +4398,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 128.27) (xy 200.66 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badda966-0d2e-4e59-8d90-009d4f5a9038")
-	)
-	(wire
-		(pts
 			(xy 135.89 83.82) (xy 146.05 83.82)
 		)
 		(stroke
@@ -4501,16 +4425,6 @@
 			(type default)
 		)
 		(uuid "c3933cdf-ec80-4baf-9ccd-66bc985447ba")
-	)
-	(wire
-		(pts
-			(xy 135.89 118.11) (xy 128.27 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5351514-2809-4435-a776-3d249b37e6e9")
 	)
 	(bus
 		(pts
@@ -4564,16 +4478,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 132.08) (xy 185.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbbc14f0-6105-4823-a5c2-9e17c19ce218")
-	)
-	(wire
-		(pts
 			(xy 228.6 68.58) (xy 240.03 68.58)
 		)
 		(stroke
@@ -4611,16 +4515,6 @@
 			(type default)
 		)
 		(uuid "d06062b0-771b-4177-b111-87e8321cab86")
-	)
-	(wire
-		(pts
-			(xy 200.66 93.98) (xy 203.2 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3093e23-25c0-4cdf-a092-ab4302a58c3c")
 	)
 	(wire
 		(pts
@@ -4731,6 +4625,16 @@
 			(type default)
 		)
 		(uuid "ecb58326-6da1-4a36-ba6e-68df5215c375")
+	)
+	(wire
+		(pts
+			(xy 199.39 93.98) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc7d593-7bd2-4ac3-9c18-e9ff24988974")
 	)
 	(wire
 		(pts
@@ -5422,9 +5326,9 @@
 		)
 		(uuid "fbfa17f1-3200-40c3-add2-20f9fc827262")
 	)
-	(global_label "R{slash}~{W}"
+	(global_label "SR"
 		(shape input)
-		(at 187.96 140.97 180)
+		(at 199.39 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5432,9 +5336,31 @@
 			)
 			(justify right)
 		)
-		(uuid "17922091-51a2-4cbc-be23-618e3151ac10")
+		(uuid "00edd795-7027-47b7-b104-e577d905eeb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.9229 140.97 0)
+			(at 193.9253 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R{slash}~{W}"
+		(shape input)
+		(at 59.69 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cc80aca-8821-4d34-ab49-fa6d82d48bbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.6529 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,28 +5392,6 @@
 			)
 		)
 	)
-	(global_label "R{slash}~{W}"
-		(shape input)
-		(at 187.96 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33a4aa94-aeb1-4372-a3fe-a6178c343d2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.9229 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Addr[0..15]"
 		(shape input)
 		(at 68.58 45.72 180)
@@ -5501,6 +5405,72 @@
 		(uuid "3432b410-c4a5-4ab9-b49c-6ab7252ffba3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.8905 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SR"
+		(shape input)
+		(at 143.51 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "425bb6a7-c3ac-486e-bf33-8226db8cd0eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.0453 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 26.67 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5afa4667-06fd-4088-996a-bafdb65e1ed7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.1167 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW"
+		(shape input)
+		(at 199.39 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "626c7a8d-5edf-4fd3-9e74-a056eda3066f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.7439 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,6 +5546,28 @@
 			)
 		)
 	)
+	(global_label "SW"
+		(shape output)
+		(at 99.06 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89bdd6d2-0773-493d-88ca-926956cb3bf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.7061 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{CLK}"
 		(shape output)
 		(at 41.91 168.91 0)
@@ -5600,7 +5592,7 @@
 	)
 	(global_label "R{slash}~{W}"
 		(shape input)
-		(at 119.38 134.62 180)
+		(at 26.67 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5608,9 +5600,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a237bcbc-0ada-4004-9454-74a4bf3474aa")
+		(uuid "9e8a90f0-2e3d-4118-be9c-a7e94b3fa8b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.3429 134.62 0)
+			(at 19.6329 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,9 +5612,31 @@
 			)
 		)
 	)
+	(global_label "SR"
+		(shape output)
+		(at 41.91 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c51eebd6-22fd-481e-843d-0edf37a63db4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3747 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CLK"
 		(shape input)
-		(at 212.09 138.43 180)
+		(at 83.82 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5630,9 +5644,31 @@
 			)
 			(justify right)
 		)
-		(uuid "b0aee544-de93-4242-aac8-61312878d8a5")
+		(uuid "c712dcab-0cc7-4f02-9064-fd7d19466cbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.5367 138.43 0)
+			(at 77.2667 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R{slash}~{W}"
+		(shape input)
+		(at 59.69 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d858fcc2-ec1f-4853-b70a-892122152e4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.6529 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,28 +5713,6 @@
 		(uuid "e8c16110-4599-41b7-b948-441f169e05ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.1167 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK"
-		(shape input)
-		(at 119.38 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8aaa71b-090d-46c3-86c2-33d0fcedeb3b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.8267 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,16 +6015,16 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 195.58 143.51 0)
-		(unit 1)
+		(at 34.29 184.15 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3681e918-9a44-41da-9c7c-03828f23ef73")
+		(uuid "5cff59f7-f87e-47bf-be13-43c39ca30853")
 		(property "Reference" "U6"
-			(at 195.5717 134.62 0)
+			(at 34.2817 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6032,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 195.5717 137.16 0)
+			(at 34.2817 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,8 +6040,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 195.58 143.51 0)
-			(show_name yes)
+			(at 34.29 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6049,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 195.58 143.51 0)
+			(at 34.29 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6058,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 195.58 143.51 0)
+			(at 34.29 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,52 +6067,52 @@
 			)
 		)
 		(pin "6"
-			(uuid "5cd9deeb-4d33-492f-b903-4befdeca1530")
+			(uuid "5cd9deeb-4d33-492f-b903-4befdeca1532")
 		)
 		(pin "11"
-			(uuid "6cb979fd-5994-4959-b912-ce9108b49a87")
+			(uuid "6cb979fd-5994-4959-b912-ce9108b49a89")
 		)
 		(pin "12"
-			(uuid "5ec46523-211b-4573-bd59-0e0d3e7629c8")
+			(uuid "5ec46523-211b-4573-bd59-0e0d3e7629ca")
 		)
 		(pin "7"
-			(uuid "fc9e463a-fd25-471d-be61-55b537265d2c")
+			(uuid "fc9e463a-fd25-471d-be61-55b537265d2e")
 		)
 		(pin "9"
-			(uuid "dbad598d-5238-44c7-84d6-86a28a6e3aa6")
+			(uuid "9f550515-4c44-4a0e-9c59-d1df1fc58076")
 		)
 		(pin "10"
-			(uuid "1fb831e4-698f-4172-82f9-e8a620babda8")
+			(uuid "d781d2f9-c45b-49f4-a9c6-5b4daea47045")
 		)
 		(pin "13"
-			(uuid "08feeff6-7108-40b9-9b81-e62eafa6c105")
+			(uuid "08feeff6-7108-40b9-9b81-e62eafa6c107")
 		)
 		(pin "2"
-			(uuid "0c5506fb-254c-4522-b037-675be3c3b05e")
+			(uuid "0c5506fb-254c-4522-b037-675be3c3b060")
 		)
 		(pin "8"
-			(uuid "340e64d6-3d8d-4a58-a22c-0e61315cb04b")
+			(uuid "dda92e96-e338-4ebc-b656-3a95983f57cd")
 		)
 		(pin "4"
-			(uuid "129bdc9d-063f-421b-857b-444badd7cdd8")
+			(uuid "129bdc9d-063f-421b-857b-444badd7cdda")
 		)
 		(pin "14"
-			(uuid "44559803-2af8-4487-84b4-4a1c9c9a2a19")
+			(uuid "44559803-2af8-4487-84b4-4a1c9c9a2a1b")
 		)
 		(pin "1"
-			(uuid "e28b9bc2-7244-4a55-b250-83b1b9f87429")
+			(uuid "e28b9bc2-7244-4a55-b250-83b1b9f8742b")
 		)
 		(pin "3"
-			(uuid "219cc287-70bd-468a-ac72-55fda24cdf21")
+			(uuid "219cc287-70bd-468a-ac72-55fda24cdf23")
 		)
 		(pin "5"
-			(uuid "b53798dd-257d-4dda-8502-0886ebfa83f0")
+			(uuid "b53798dd-257d-4dda-8502-0886ebfa83f2")
 		)
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
 					(reference "U6")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -6611,6 +6624,215 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC00")
+		(at 67.31 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e96487-c4b1-4b0c-8050-e611af41c299")
+		(property "Reference" "U6"
+			(at 67.3017 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 67.3017 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 67.31 185.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5cd9deeb-4d33-492f-b903-4befdeca1530")
+		)
+		(pin "11"
+			(uuid "6cb979fd-5994-4959-b912-ce9108b49a87")
+		)
+		(pin "12"
+			(uuid "5ec46523-211b-4573-bd59-0e0d3e7629c8")
+		)
+		(pin "7"
+			(uuid "fc9e463a-fd25-471d-be61-55b537265d2c")
+		)
+		(pin "9"
+			(uuid "dbad598d-5238-44c7-84d6-86a28a6e3aa6")
+		)
+		(pin "10"
+			(uuid "1fb831e4-698f-4172-82f9-e8a620babda8")
+		)
+		(pin "13"
+			(uuid "08feeff6-7108-40b9-9b81-e62eafa6c105")
+		)
+		(pin "2"
+			(uuid "37a7238a-b43a-45e7-98dd-bb6aedc5735c")
+		)
+		(pin "8"
+			(uuid "340e64d6-3d8d-4a58-a22c-0e61315cb04b")
+		)
+		(pin "4"
+			(uuid "129bdc9d-063f-421b-857b-444badd7cdd8")
+		)
+		(pin "14"
+			(uuid "44559803-2af8-4487-84b4-4a1c9c9a2a19")
+		)
+		(pin "1"
+			(uuid "f36282c5-0185-4d00-8a37-8cb7d5492f05")
+		)
+		(pin "3"
+			(uuid "f0921269-b7b7-4ac1-a0f0-09ba5502102a")
+		)
+		(pin "5"
+			(uuid "b53798dd-257d-4dda-8502-0886ebfa83f0")
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 91.44 182.88 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df3cb2e-c86f-464a-b6b8-4400e9eb1ac3")
+		(property "Reference" "U6"
+			(at 91.4317 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 91.4317 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 91.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4dae2ded-1ac5-49d2-93d7-c078ca8750f3")
+		)
+		(pin "11"
+			(uuid "6cb979fd-5994-4959-b912-ce9108b49a8b")
+		)
+		(pin "12"
+			(uuid "5ec46523-211b-4573-bd59-0e0d3e7629cc")
+		)
+		(pin "7"
+			(uuid "fc9e463a-fd25-471d-be61-55b537265d30")
+		)
+		(pin "9"
+			(uuid "dbad598d-5238-44c7-84d6-86a28a6e3aaa")
+		)
+		(pin "10"
+			(uuid "1fb831e4-698f-4172-82f9-e8a620babdac")
+		)
+		(pin "13"
+			(uuid "08feeff6-7108-40b9-9b81-e62eafa6c109")
+		)
+		(pin "2"
+			(uuid "0c5506fb-254c-4522-b037-675be3c3b062")
+		)
+		(pin "8"
+			(uuid "340e64d6-3d8d-4a58-a22c-0e61315cb04f")
+		)
+		(pin "4"
+			(uuid "417076c4-fe74-46f1-b472-ab83e15c562f")
+		)
+		(pin "14"
+			(uuid "44559803-2af8-4487-84b4-4a1c9c9a2a1d")
+		)
+		(pin "1"
+			(uuid "e28b9bc2-7244-4a55-b250-83b1b9f8742d")
+		)
+		(pin "3"
+			(uuid "219cc287-70bd-468a-ac72-55fda24cdf25")
+		)
+		(pin "5"
+			(uuid "e7c2e93b-7c46-486e-aaf1-99991c780310")
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 265.43 152.4 0)
 		(unit 1)
@@ -6671,110 +6893,6 @@
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
 					(reference "#PWR022")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC00")
-		(at 127 132.08 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4e15d03-4059-4673-958f-d28ffd137f0d")
-		(property "Reference" "U6"
-			(at 126.9917 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 126.9917 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 127 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 127 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "quad 2-input NAND gate"
-			(at 127 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "5cd9deeb-4d33-492f-b903-4befdeca1532")
-		)
-		(pin "11"
-			(uuid "6cb979fd-5994-4959-b912-ce9108b49a89")
-		)
-		(pin "12"
-			(uuid "5ec46523-211b-4573-bd59-0e0d3e7629ca")
-		)
-		(pin "7"
-			(uuid "fc9e463a-fd25-471d-be61-55b537265d2e")
-		)
-		(pin "9"
-			(uuid "dbad598d-5238-44c7-84d6-86a28a6e3aa8")
-		)
-		(pin "10"
-			(uuid "1fb831e4-698f-4172-82f9-e8a620babdaa")
-		)
-		(pin "13"
-			(uuid "08feeff6-7108-40b9-9b81-e62eafa6c107")
-		)
-		(pin "2"
-			(uuid "0c5506fb-254c-4522-b037-675be3c3b060")
-		)
-		(pin "8"
-			(uuid "340e64d6-3d8d-4a58-a22c-0e61315cb04d")
-		)
-		(pin "4"
-			(uuid "129bdc9d-063f-421b-857b-444badd7cdda")
-		)
-		(pin "14"
-			(uuid "44559803-2af8-4487-84b4-4a1c9c9a2a1b")
-		)
-		(pin "1"
-			(uuid "e28b9bc2-7244-4a55-b250-83b1b9f8742b")
-		)
-		(pin "3"
-			(uuid "219cc287-70bd-468a-ac72-55fda24cdf23")
-		)
-		(pin "5"
-			(uuid "b53798dd-257d-4dda-8502-0886ebfa83f2")
-		)
-		(instances
-			(project "Lambda One"
-				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
-					(reference "U6")
-					(unit 3)
 				)
 			)
 		)
@@ -7141,110 +7259,6 @@
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
 					(reference "#PWR025")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC00")
-		(at 219.71 140.97 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee275775-2b2b-4ad5-ae97-9ac68a1d27b6")
-		(property "Reference" "U6"
-			(at 219.7017 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 219.7017 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 219.71 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 219.71 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "quad 2-input NAND gate"
-			(at 219.71 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "5cd9deeb-4d33-492f-b903-4befdeca1534")
-		)
-		(pin "11"
-			(uuid "6cb979fd-5994-4959-b912-ce9108b49a8b")
-		)
-		(pin "12"
-			(uuid "5ec46523-211b-4573-bd59-0e0d3e7629cc")
-		)
-		(pin "7"
-			(uuid "fc9e463a-fd25-471d-be61-55b537265d30")
-		)
-		(pin "9"
-			(uuid "dbad598d-5238-44c7-84d6-86a28a6e3aaa")
-		)
-		(pin "10"
-			(uuid "1fb831e4-698f-4172-82f9-e8a620babdac")
-		)
-		(pin "13"
-			(uuid "08feeff6-7108-40b9-9b81-e62eafa6c109")
-		)
-		(pin "2"
-			(uuid "0c5506fb-254c-4522-b037-675be3c3b062")
-		)
-		(pin "8"
-			(uuid "340e64d6-3d8d-4a58-a22c-0e61315cb04f")
-		)
-		(pin "4"
-			(uuid "129bdc9d-063f-421b-857b-444badd7cddc")
-		)
-		(pin "14"
-			(uuid "44559803-2af8-4487-84b4-4a1c9c9a2a1d")
-		)
-		(pin "1"
-			(uuid "e28b9bc2-7244-4a55-b250-83b1b9f8742d")
-		)
-		(pin "3"
-			(uuid "219cc287-70bd-468a-ac72-55fda24cdf25")
-		)
-		(pin "5"
-			(uuid "b53798dd-257d-4dda-8502-0886ebfa83f4")
-		)
-		(instances
-			(project "Lambda One"
-				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
-					(reference "U6")
-					(unit 2)
 				)
 			)
 		)
