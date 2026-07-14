@@ -6306,6 +6306,16 @@
 		)
 		(uuid "fefc2631-0bd0-42c7-9c2b-32b91fd2dc72")
 	)
+	(label "Addr13"
+		(at 146.05 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1599a849-40b5-4d9c-9d97-23928a2cf854")
+	)
 	(label "Addr10"
 		(at 129.54 76.2 0)
 		(effects
@@ -6386,7 +6396,7 @@
 		)
 		(uuid "31c46d08-c0f9-4e0f-8240-442a658a7691")
 	)
-	(label "Addr15"
+	(label "Addr12"
 		(at 200.66 88.9 0)
 		(effects
 			(font
@@ -6466,7 +6476,7 @@
 		)
 		(uuid "5846dea5-d939-4f2f-bccd-0b37d9854836")
 	)
-	(label "Addr13"
+	(label "Addr14"
 		(at 146.05 83.82 0)
 		(effects
 			(font
@@ -6606,16 +6616,6 @@
 		)
 		(uuid "be310e71-3220-473c-aaa0-1b6c86716896")
 	)
-	(label "Addr12"
-		(at 146.05 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c011ba79-e501-47c3-8838-5e70634e9889")
-	)
 	(label "D7"
 		(at 186.69 125.73 0)
 		(effects
@@ -6625,6 +6625,16 @@
 			(justify left bottom)
 		)
 		(uuid "c038bef4-5a38-4284-91ec-5459c3f82d67")
+	)
+	(label "Addr15"
+		(at 146.05 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd91c25c-eb5c-44f4-8ef7-17256aedb479")
 	)
 	(label "Addr1"
 		(at 129.54 53.34 0)
@@ -6695,16 +6705,6 @@
 			(justify left bottom)
 		)
 		(uuid "f43f0bdd-3404-41ea-bf85-7467a16a1060")
-	)
-	(label "Addr14"
-		(at 146.05 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4d34c0c-a5d4-4181-9eaf-5ba805c93273")
 	)
 	(label "Addr9"
 		(at 129.54 73.66 0)
@@ -6924,30 +6924,6 @@
 			)
 		)
 	)
-	(global_label "ROM_{~{CS}}"
-		(shape output)
-		(at 191.77 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "7ec5f2b1-0746-4197-9884-465ef3b6ad59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.8415 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_{~{CS}}"
 		(shape input)
 		(at 76.2 113.03 0)
@@ -7009,6 +6985,30 @@
 		(uuid "90cae236-9823-4b37-a9f0-5447bf6dcee8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.0456 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROM_{~{CS}}"
+		(shape output)
+		(at 191.77 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a82856d4-dd39-4f12-a228-9aebf3a39e5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8415 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7130,7 @@
 	)
 	(global_label "RAM_{~{CS}}"
 		(shape output)
-		(at 191.77 83.82 0)
+		(at 191.77 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7140,9 +7140,9 @@
 			)
 			(justify left)
 		)
-		(uuid "dbf7ac27-c327-4b69-b9ad-1d29e408dcb7")
+		(uuid "dfb0e64a-a9fa-412d-bba5-d639209b38f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.5996 83.82 0)
+			(at 200.5996 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,16 +7403,16 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 88.9 95.25 180)
+		(at 88.9 82.55 180)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1e698fc5-3ae8-48c0-a308-cc8bbaababc3")
+		(uuid "2a1a9d71-7253-4551-ba64-8e1f1b50c3eb")
 		(property "Reference" "U9"
-			(at 88.9083 86.36 0)
+			(at 88.9083 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7420,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 88.9083 88.9 0)
+			(at 88.9083 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7428,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 88.9 95.25 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7437,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 88.9 95.25 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,7 +7446,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 88.9 95.25 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,13 +7479,13 @@
 			(uuid "deed8f62-ea56-48bd-bf49-f72607c90a05")
 		)
 		(pin "9"
-			(uuid "06b909b6-4188-4baf-a533-cdcc54a23f1b")
+			(uuid "33c6bafe-2df9-4da1-9859-d75e457b11a9")
 		)
 		(pin "12"
 			(uuid "6904e03e-4591-4597-a13a-00f055870069")
 		)
 		(pin "8"
-			(uuid "2815aff0-f39e-42fc-8b7c-e6e4f4cccc39")
+			(uuid "af25aeb3-6dd7-49cf-aebe-c32fca47f958")
 		)
 		(pin "11"
 			(uuid "326cd8c9-0bd4-453c-81c4-b4ab0cb7db8a")
@@ -7494,7 +7494,7 @@
 			(uuid "310fb124-29f0-4060-bd12-f32d4e2c2cbf")
 		)
 		(pin "10"
-			(uuid "806acddd-4f96-4c2e-83db-e5ed977b1371")
+			(uuid "7fb9a6cd-db5e-46d9-bd9c-ffa589103764")
 		)
 		(instances
 			(project "Lambda One"
@@ -7618,7 +7618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2afa2a2e-e141-421b-afd5-47e2568c846d")
-		(property "Reference" "U12"
+		(property "Reference" "CPU_DB1"
 			(at 173.5933 100.33 0)
 			(effects
 				(font
@@ -7726,7 +7726,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
-					(reference "U12")
+					(reference "CPU_DB1")
 					(unit 1)
 				)
 			)
@@ -7938,110 +7938,6 @@
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC00")
-		(at 88.9 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3453e54c-4048-4a1c-a04e-99c56972b858")
-		(property "Reference" "U9"
-			(at 88.9083 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 88.9083 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "quad 2-input NAND gate"
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cd15311-5dbf-4e8e-bf95-868a1241b26f")
-		)
-		(pin "2"
-			(uuid "b76d64de-2b2f-4072-bc23-bcc7ceaacc4d")
-		)
-		(pin "14"
-			(uuid "14cc843e-3d26-4a9f-802d-d2e7d19651e9")
-		)
-		(pin "13"
-			(uuid "5fe1423a-8052-4a5f-be4e-adf6f339ae1c")
-		)
-		(pin "5"
-			(uuid "8e1498f3-a173-4643-9ca0-729bd1564179")
-		)
-		(pin "7"
-			(uuid "b53a8a0a-e9d9-4631-b04d-b08cd9c07134")
-		)
-		(pin "6"
-			(uuid "ebb75b08-a5f2-4dc0-a8a0-3163c64c03c4")
-		)
-		(pin "3"
-			(uuid "deed8f62-ea56-48bd-bf49-f72607c90a06")
-		)
-		(pin "9"
-			(uuid "06b909b6-4188-4baf-a533-cdcc54a23f1c")
-		)
-		(pin "12"
-			(uuid "6904e03e-4591-4597-a13a-00f05587006a")
-		)
-		(pin "8"
-			(uuid "2815aff0-f39e-42fc-8b7c-e6e4f4cccc3a")
-		)
-		(pin "11"
-			(uuid "326cd8c9-0bd4-453c-81c4-b4ab0cb7db8b")
-		)
-		(pin "4"
-			(uuid "310fb124-29f0-4060-bd12-f32d4e2c2cc0")
-		)
-		(pin "10"
-			(uuid "806acddd-4f96-4c2e-83db-e5ed977b1372")
-		)
-		(instances
-			(project "Lambda One"
-				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8832,7 +8728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f806115-10dd-4707-b743-6b5907d672fa")
-		(property "Reference" "U3"
+		(property "Reference" "ADDR1"
 			(at 173.99 50.8 0)
 			(effects
 				(font
@@ -8848,7 +8744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ATF22V10C-10PU:24-DIP"
+		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
 			(at 173.99 74.93 0)
 			(effects
 				(font
@@ -8950,7 +8846,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
-					(reference "U3")
+					(reference "ADDR1")
 					(unit 1)
 				)
 			)
@@ -9386,6 +9282,109 @@
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 88.9 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85190014-9789-4a98-ad67-853d6254623d")
+		(property "Reference" "U9"
+			(at 89.154 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 88.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b542db54-a898-4c6c-9224-78a533cf4de8")
+		)
+		(pin "2"
+			(uuid "d3bcb8f4-dd8d-4866-8783-8d64cf0b0a8a")
+		)
+		(pin "14"
+			(uuid "14cc843e-3d26-4a9f-802d-d2e7d19651e9")
+		)
+		(pin "13"
+			(uuid "5fe1423a-8052-4a5f-be4e-adf6f339ae1c")
+		)
+		(pin "5"
+			(uuid "8e1498f3-a173-4643-9ca0-729bd1564179")
+		)
+		(pin "7"
+			(uuid "b53a8a0a-e9d9-4631-b04d-b08cd9c07134")
+		)
+		(pin "6"
+			(uuid "ebb75b08-a5f2-4dc0-a8a0-3163c64c03c4")
+		)
+		(pin "3"
+			(uuid "036a13c2-b56e-4d0f-b40a-3fe827e75659")
+		)
+		(pin "9"
+			(uuid "06b909b6-4188-4baf-a533-cdcc54a23f1c")
+		)
+		(pin "12"
+			(uuid "6904e03e-4591-4597-a13a-00f05587006a")
+		)
+		(pin "8"
+			(uuid "2815aff0-f39e-42fc-8b7c-e6e4f4cccc3a")
+		)
+		(pin "11"
+			(uuid "326cd8c9-0bd4-453c-81c4-b4ab0cb7db8b")
+		)
+		(pin "4"
+			(uuid "310fb124-29f0-4060-bd12-f32d4e2c2cc0")
+		)
+		(pin "10"
+			(uuid "806acddd-4f96-4c2e-83db-e5ed977b1372")
+		)
+		(instances
+			(project "Lambda One"
+				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -11194,7 +11193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8480fa-782d-45c0-bf90-6659f25d5eb6")
-		(property "Reference" "U1"
+		(property "Reference" "CPU1"
 			(at 117.7133 40.64 0)
 			(effects
 				(font
@@ -11363,7 +11362,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d"
-					(reference "U1")
+					(reference "CPU1")
 					(unit 1)
 				)
 			)

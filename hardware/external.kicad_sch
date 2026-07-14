@@ -7570,7 +7570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "038f6263-971f-49d2-99c2-673d6576847a")
-		(property "Reference" "J9"
+		(property "Reference" "SERIAL_D1"
 			(at 260.985 95.25 0)
 			(effects
 				(font
@@ -7628,7 +7628,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/8596ee45-8820-47ce-a360-877e286ae437"
-					(reference "J9")
+					(reference "SERIAL_D1")
 					(unit 1)
 				)
 			)
@@ -7911,7 +7911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cc29354-5bd9-4a2e-b62a-bdc436587b38")
-		(property "Reference" "J8"
+		(property "Reference" "SERIAL_C1"
 			(at 236.855 95.25 0)
 			(effects
 				(font
@@ -7969,7 +7969,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/8596ee45-8820-47ce-a360-877e286ae437"
-					(reference "J8")
+					(reference "SERIAL_C1")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47acffe0-0d9b-41ba-8842-7a9389f87bb5")
-		(property "Reference" "J10"
+		(property "Reference" "AUDIO1"
 			(at 74.93 185.4201 0)
 			(effects
 				(font
@@ -8586,7 +8586,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/8596ee45-8820-47ce-a360-877e286ae437"
-					(reference "J10")
+					(reference "AUDIO1")
 					(unit 1)
 				)
 			)
@@ -8800,7 +8800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb8a07c-1b1d-45a0-83fe-1abc1e2cc9d4")
-		(property "Reference" "J6"
+		(property "Reference" "VGA1"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -8891,7 +8891,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/8596ee45-8820-47ce-a360-877e286ae437"
-					(reference "J6")
+					(reference "VGA1")
 					(unit 1)
 				)
 			)
@@ -10031,7 +10031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc8fa38-2789-4357-83ad-62f5cb0bbd1c")
-		(property "Reference" "J4"
+		(property "Reference" "PWR_PIN1"
 			(at 224.79 134.62 0)
 			(effects
 				(font
@@ -10101,7 +10101,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/8596ee45-8820-47ce-a360-877e286ae437"
-					(reference "J4")
+					(reference "PWR_PIN1")
 					(unit 1)
 				)
 			)

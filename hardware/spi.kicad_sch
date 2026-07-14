@@ -2622,7 +2622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c85fe74-2ea6-4cd4-b7bb-71e2619e55d4")
-		(property "Reference" "H1"
+		(property "Reference" "ETHERNET1"
 			(at 129.54 81.28 0)
 			(effects
 				(font
@@ -2856,7 +2856,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/28e06375-6191-48e6-8753-cf17849d8879"
-					(reference "H1")
+					(reference "ETHERNET1")
 					(unit 1)
 				)
 			)
@@ -2937,7 +2937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "506f352f-9b47-40b1-89d2-df24402282ac")
-		(property "Reference" "J3"
+		(property "Reference" "SDCARD1"
 			(at 236.855 74.93 0)
 			(effects
 				(font
@@ -3010,7 +3010,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/28e06375-6191-48e6-8753-cf17849d8879"
-					(reference "J3")
+					(reference "SDCARD1")
 					(unit 1)
 				)
 			)
@@ -3723,7 +3723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ec8cd0-1823-40d1-bee9-ba813ae74768")
-		(property "Reference" "J2"
+		(property "Reference" "RTC1"
 			(at 65.786 80.518 0)
 			(effects
 				(font
@@ -3790,7 +3790,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/28e06375-6191-48e6-8753-cf17849d8879"
-					(reference "J2")
+					(reference "RTC1")
 					(unit 1)
 				)
 			)

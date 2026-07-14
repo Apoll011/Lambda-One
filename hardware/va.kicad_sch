@@ -8627,7 +8627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d56055ce-bb07-4780-82c7-86d577abc21b")
-		(property "Reference" "U16"
+		(property "Reference" "DB5V1"
 			(at 123.698 51.054 0)
 			(effects
 				(font
@@ -8735,7 +8735,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/17c7449d-caad-4fd1-a972-8af3d0bf5f54"
-					(reference "U16")
+					(reference "DB5V1")
 					(unit 1)
 				)
 			)

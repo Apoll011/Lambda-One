@@ -3055,7 +3055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94912895-36f3-4bda-95da-22b8afb9ebf2")
-		(property "Reference" "U24"
+		(property "Reference" "AUDIO_AMPL1"
 			(at 210.4233 58.42 0)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/17c7449d-caad-4fd1-a972-8af3d0bf5f54/00ba453e-e298-4320-b019-260eafbb65c0"
-					(reference "U24")
+					(reference "AUDIO_AMPL1")
 					(unit 1)
 				)
 			)
@@ -3443,7 +3443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7c57e09-6e70-451c-ba1b-0c72389929c0")
-		(property "Reference" "U13"
+		(property "Reference" "SID1"
 			(at 143.51 59.69 0)
 			(effects
 				(font
@@ -3573,7 +3573,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/17c7449d-caad-4fd1-a972-8af3d0bf5f54/00ba453e-e298-4320-b019-260eafbb65c0"
-					(reference "U13")
+					(reference "SID1")
 					(unit 1)
 				)
 			)

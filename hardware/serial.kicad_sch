@@ -7022,10 +7022,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38df7a2c-dd0c-40ce-915f-c0400d9ff5a3")
-		(property "Reference" "U10"
-			(at 185.9981 86.36 0)
+		(property "Reference" "UART_USBC1"
+			(at 169.164 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +7033,7 @@
 			)
 		)
 		(property "Value" "CH340C"
-			(at 185.9981 88.9 0)
+			(at 184.15 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7120,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/ddbbde09-39b7-4f71-b314-84c8e93fa330"
-					(reference "U10")
+					(reference "UART_USBC1")
 					(unit 1)
 				)
 			)
@@ -7225,20 +7224,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f99817-6a3a-4ed0-92ec-23eff72126fe")
-		(property "Reference" "U5"
-			(at 104.14 74.422 0)
+		(property "Reference" "SERIAL1"
+			(at 108.8233 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SC16C654DBIB64_151"
-			(at 103.886 94.996 90)
+			(at 108.8233 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_7x7mm_P0.4mm"
@@ -7459,7 +7460,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/ddbbde09-39b7-4f71-b314-84c8e93fa330"
-					(reference "U5")
+					(reference "SERIAL1")
 					(unit 1)
 				)
 			)
@@ -7607,7 +7608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63647c99-d5b9-48ef-86c6-b6cc5a3c98c3")
-		(property "Reference" "U20"
+		(property "Reference" "UART_USBA1"
 			(at 184.7281 135.89 0)
 			(effects
 				(font
@@ -7704,7 +7705,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/ddbbde09-39b7-4f71-b314-84c8e93fa330"
-					(reference "U20")
+					(reference "UART_USBA1")
 					(unit 1)
 				)
 			)
@@ -7786,7 +7787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d0dc25-af71-42bd-8be5-ab80a13ffb34")
-		(property "Reference" "U5"
+		(property "Reference" "SERIAL1"
 			(at 35.56 145.542 0)
 			(effects
 				(font
@@ -8020,7 +8021,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/ddbbde09-39b7-4f71-b314-84c8e93fa330"
-					(reference "U5")
+					(reference "SERIAL1")
 					(unit 2)
 				)
 			)
@@ -8775,7 +8776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
 			(at 212.09 119.38 0)
 			(effects
 				(font

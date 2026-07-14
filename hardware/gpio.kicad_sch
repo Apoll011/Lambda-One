@@ -5555,7 +5555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0a54fda-2a8c-47af-a10b-9674bca29af4")
-		(property "Reference" "U4"
+		(property "Reference" "VIA2"
 			(at 196.4533 57.15 0)
 			(effects
 				(font
@@ -5723,7 +5723,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/c99586b2-79bd-4011-9acf-fcc28a8dd9c0"
-					(reference "U4")
+					(reference "VIA2")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb8e61c7-366f-450e-b689-2288d6d45c41")
-		(property "Reference" "U2"
+		(property "Reference" "VIA1"
 			(at 122.7933 57.15 0)
 			(effects
 				(font
@@ -5908,7 +5908,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/c99586b2-79bd-4011-9acf-fcc28a8dd9c0"
-					(reference "U2")
+					(reference "VIA1")
 					(unit 1)
 				)
 			)

@@ -5863,7 +5863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13e20df2-b0e6-4a0b-ac99-9574858e4506")
-		(property "Reference" "U11"
+		(property "Reference" "RAM1"
 			(at 213.7567 55.88 0)
 			(effects
 				(font
@@ -6007,7 +6007,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
-					(reference "U11")
+					(reference "RAM1")
 					(unit 1)
 				)
 			)
@@ -6127,7 +6127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1c882d-0c9d-4c46-88f5-c69975bf54e0")
-		(property "Reference" "U7"
+		(property "Reference" "ROM1"
 			(at 158.3533 55.88 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 		(instances
 			(project "Lambda One"
 				(path "/73ea9964-373f-4fdc-b03e-f532cf836c0d/393dc2fd-ccc9-40ef-ba1b-4142573d9a3b"
-					(reference "U7")
+					(reference "ROM1")
 					(unit 1)
 				)
 			)
@@ -6462,7 +6462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 77.47 119.38 0)
 			(effects
 				(font
