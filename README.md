@@ -1,9 +1,3 @@
-Here is your updated and significantly improved `README.md` file. 
-
-This version replaces all outdated specifications, incorporates the correct 512 KB banked RAM details, the SC16C654 Quad UART configuration (including the onboard USB-to-serial channels and TTL headers), the modular breakout details, and breaks down your memory map down to individual register windows and SPI chip-select levels.
-
-***
-
 # Lambda One
 
 > A modern educational computer built around the **Western Design Center W65C816S**, combining classic 16-bit computer architecture with robust hardware design, high-resolution video, modern USB connectivity, and rich expandability.
