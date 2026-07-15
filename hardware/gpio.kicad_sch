@@ -2011,6 +2011,12 @@
 		(color 0 0 0 0)
 		(uuid "512d1ae3-d18e-4e00-9262-2b7e8b488560")
 	)
+	(junction
+		(at 147.32 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55fdb15b-3783-4219-873e-891c2f0e2602")
+	)
 	(bus_entry
 		(at 140.97 74.93)
 		(size -2.54 2.54)
@@ -2554,13 +2560,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 135.89 102.87)
+			(xy 147.32 105.41) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "115ef109-e2b5-4945-b6d1-528359b2b30e")
+	)
+	(wire
+		(pts
+			(xy 130.81 102.87) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115f71b4-112d-4f42-98f5-0045e346b3b0")
 	)
 	(wire
 		(pts
@@ -3354,6 +3370,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 105.41) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a800e3db-2156-4518-bf57-a634dd78e7ca")
+	)
+	(wire
+		(pts
 			(xy 130.81 82.55) (xy 138.43 82.55)
 		)
 		(stroke
@@ -3564,6 +3590,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 100.33) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2414a3-bf9f-4612-aa70-71a94fac4e9a")
+	)
+	(wire
+		(pts
 			(xy 168.91 82.55) (xy 184.15 82.55)
 		)
 		(stroke
@@ -3621,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "d3a6ead0-304f-4c3f-ae62-67eb9dda2789")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6beb9ad-ffdc-4982-8e5b-7b24d5c58230")
 	)
 	(wire
 		(pts
@@ -4474,8 +4520,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 135.89 102.87 0)
-		(fields_autoplaced yes)
+		(at 148.59 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4484,7 +4529,7 @@
 		)
 		(uuid "23eabfc2-7f57-4415-8701-0530c879e4c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.4714 102.87 0)
+			(at 156.1714 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,6 +4862,28 @@
 		(uuid "c148d557-f57f-4e49-8091-d9d94cf5beaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.4742 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_{D{slash}C}"
+		(shape output)
+		(at 148.59 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c729d9b1-0a37-401a-b0b0-20564ffaef2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.8067 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

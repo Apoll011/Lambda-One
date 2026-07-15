@@ -11,4 +11,6 @@
   (lib (name "2026-07-13_16-03-59")(type "KiCad")(uri "${KIPRJMOD}/libraries/2026-07-13_16-03-59.kicad_sym")(options "")(descr ""))
   (lib (name "SID")(type "KiCad")(uri "${KIPRJMOD}/libraries/SID.kicad_sym")(options "")(descr ""))
   (lib (name "pam8403")(type "KiCad")(uri "${KIPRJMOD}/libraries/pam8403-kicad-symbol-footprint/pam8403.kicad_sym")(options "")(descr ""))
+  (lib (name "2.42oled")(type "Legacy")(uri "${KIPRJMOD}/libraries/old/2.42oled.lib")(options "")(descr ""))
+  (lib (name "diymore")(type "Legacy")(uri "${KIPRJMOD}/libraries/old/diymore.lib")(options "")(descr ""))
 )
