@@ -694,15 +694,7 @@
     ],
     [
       "17c7449d-caad-4fd1-a972-8af3d0bf5f54",
-      "Video&Audio"
-    ],
-    [
-      "de4b84de-a9b1-46be-baf2-2295df779266",
-      "Video System"
-    ],
-    [
-      "00ba453e-e298-4320-b019-260eafbb65c0",
-      "Sound System"
+      "Audio"
     ]
   ],
   "text_variables": {}

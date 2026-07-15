@@ -11384,7 +11384,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "17c7449d-caad-4fd1-a972-8af3d0bf5f54")
-		(property "Sheetname" "Video&Audio"
+		(property "Sheetname" "Audio"
 			(at 241.3 137.7184 0)
 			(effects
 				(font
