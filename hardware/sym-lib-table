@@ -13,4 +13,5 @@
   (lib (name "pam8403")(type "KiCad")(uri "${KIPRJMOD}/libraries/pam8403-kicad-symbol-footprint/pam8403.kicad_sym")(options "")(descr ""))
   (lib (name "2.42oled")(type "Legacy")(uri "${KIPRJMOD}/libraries/old/2.42oled.lib")(options "")(descr ""))
   (lib (name "diymore")(type "Legacy")(uri "${KIPRJMOD}/libraries/old/diymore.lib")(options "")(descr ""))
+  (lib (name "4x4_keypad")(type "KiCad")(uri "${KIPRJMOD}/libraries/4x4_keypad.kicad_sym")(options "")(descr ""))
 )
