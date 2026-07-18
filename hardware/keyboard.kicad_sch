@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fddcae35-4d7d-443c-89d8-dd185340c955")
+	(paper "A4")
+	(title_block
+		(date "2026-07-13")
+		(rev "v1")
+		(company "Embrace")
+		(comment 1 "https://github.com/Apoll011/Lambda-One")
+		(comment 2 "Apoll011")
+		(comment 3 "Draw by Tiago Inês")
+	)
+	(lib_symbols)
+)

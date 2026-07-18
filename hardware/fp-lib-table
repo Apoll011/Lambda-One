@@ -5,4 +5,5 @@
   (lib (name "AT28C256-15PU")(type "KiCad")(uri "${KIPRJMOD}/libraries/AT28C256-15PU.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints.pretty")(options "")(descr ""))
   (lib (name "pam8403")(type "KiCad")(uri "${KIPRJMOD}/libraries/pam8403-kicad-symbol-footprint/pam8403.pretty")(options "")(descr ""))
+  (lib (name "old")(type "KiCad")(uri "${KIPRJMOD}/libraries/old")(options "")(descr ""))
 )
